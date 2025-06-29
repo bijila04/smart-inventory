@@ -1,0 +1,1201 @@
+Date,Product,Category,Store_ID,Stock_Received,Stock_Sold,Stock_on_Hand,Reorder_Level,Season
+2023-04-15 00:00:00,Bread,Bakery,Store_3,31.0,31.0,0.0,11.0,Autumn
+2023-01-18 00:00:00,Orange,Fruits,Store_1,30.0,30.0,0.0,17.0,Rainy
+2023-02-03 00:00:00,Orange,Fruits,Store_2,21.0,21.0,0.0,13.0,Rainy
+2023-05-03 00:00:00,Rice,Grains,Store_2,27.0,19.0,8.0,12.0,Autumn
+2023-10-28 00:00:00,Banana,Fruits,Store_2,42.0,42.0,0.0,18.0,Hot
+2023-02-27 00:00:00,Bread,Bakery,Store_3,21.0,21.0,0.0,21.0,Rainy
+2023-07-04 00:00:00,Soap,Personal Care,Store_1,25.0,22.0,3.0,10.0,Winter
+2023-03-05 00:00:00,Bread,Bakery,Store_1,33.0,32.0,1.0,17.0,Autumn
+2023-01-17 00:00:00,Rice,Grains,Store_3,29.0,29.0,0.0,17.0,Rainy
+2023-12-22 00:00:00,Bread,Bakery,Store_1,29.0,27.0,2.0,19.0,Rainy
+2023-07-19 00:00:00,Milk,Dairy,Store_2,29.0,29.0,0.0,11.0,Winter
+2023-10-06 00:00:00,Shampoo,Personal Care,Store_1,32.0,23.0,9.0,29.0,Hot
+2023-06-08 00:00:00,Soap,Personal Care,Store_1,29.0,25.0,4.0,24.0,Winter
+2023-05-13 00:00:00,Soap,Personal Care,Store_2,37.0,24.0,13.0,20.0,Autumn
+2023-11-29 00:00:00,Milk,Dairy,Store_1,14.0,14.0,0.0,13.0,Rainy
+2023-06-24 00:00:00, orange ,Fruits,Store_2,25.0,21.0,4.0,17.0,Winter
+2023-01-12 00:00:00,Shampoo,Personal Care,Store_1,30.0,30.0,0.0,20.0,Rainy
+2023-03-22 00:00:00,Shampoo,Personal Care,Store_3,33.0,22.0,11.0,24.0,Autumn
+2023-03-20 00:00:00, bread ,Bakery,Store_1,29.0,18.0,11.0,13.0,Autumn
+2023-10-08 00:00:00,Eggs,Dairy,Store_2,28.0,26.0,2.0,22.0,Hot
+2023-01-07 00:00:00,Apple,Fruits,Store_2,42.0,33.0,9.0,20.0,Rainy
+2023-09-07 00:00:00, milk ,Dairy,Store_1,29.0,20.0,9.0,17.0,Hot
+2023-10-26 00:00:00, shampoo ,Personal Care,Store_1,26.0,21.0,5.0,13.0,Hot
+2023-07-12 00:00:00,Bread,Bakery,Store_3,37.0,27.0,10.0,22.0,Winter
+2023-10-08 00:00:00,Banana,Fruits,Store_1,25.0,22.0,3.0,19.0,Hot
+2023-12-20 00:00:00,Chicken,Meat,Store_1,25.0,22.0,3.0,12.0,Rainy
+2023-08-28 00:00:00,Apple,Fruits,Store_3,20.0,19.0,1.0,12.0,Winter
+2023-12-05 00:00:00,Soap,Personal Care,Store_1,24.0,24.0,0.0,11.0,Rainy
+2023-03-07 00:00:00,Soap,Personal Care,Store_3,32.0,32.0,0.0,26.0,Autumn
+2023-10-20 00:00:00,Chicken,Meat,Store_2,25.0,25.0,0.0,22.0,Hot
+2023-07-03 00:00:00, rice ,Grains,Store_1,29.0,25.0,4.0,15.0,Winter
+2023-09-09 00:00:00,Eggs,Dairy,Store_1,32.0,24.0,8.0,16.0,Hot
+2023-02-02 00:00:00,Orange,Fruits,Store_2,34.0,34.0,0.0,23.0,Rainy
+2023-05-22 00:00:00,Bread,Bakery,Store_3,37.0,22.0,15.0,29.0,Autumn
+2023-10-24 00:00:00,Apple,Fruits,Store_3,35.0,24.0,11.0,27.0,Hot
+2023-10-14 00:00:00,Bread,Bakery,Store_3,33.0,18.0,15.0,19.0,Hot
+2023-06-15 00:00:00,Eggs,Dairy,Store_3,30.0,30.0,0.0,,Winter
+2023-07-26 00:00:00,Eggs,Dairy,Store_1,34.0,34.0,0.0,26.0,Winter
+2023-01-15 00:00:00,Soap,Personal Care,Store_3,35.0,25.0,10.0,21.0,Rainy
+2023-10-01 00:00:00,Bread,Bakery,Store_1,37.0,14.0,23.0,20.0,Hot
+2023-05-20 00:00:00,Orange,Fruits,Store_1,29.0,23.0,6.0,17.0,Autumn
+2023-08-20 00:00:00,Banana,Fruits,Store_3,32.0,23.0,9.0,25.0,Winter
+2023-10-21 00:00:00,Bread,Bakery,Store_3,28.0,20.0,8.0,26.0,Hot
+2023-06-26 00:00:00,Eggs,Dairy,Store_1,31.0,31.0,0.0,24.0,Winter
+2023-12-12 00:00:00,Banana,Fruits,Store_2,27.0,27.0,0.0,21.0,Rainy
+2023-11-06 00:00:00,Shampoo,Personal Care,Store_3,28.0,22.0,6.0,14.0,Rainy
+2023-02-21 00:00:00,Orange,Fruits,Store_2,29.0,29.0,0.0,20.0,Rainy
+2023-06-12 00:00:00,Shampoo,Personal Care,Store_2,25.0,24.0,1.0,15.0,Winter
+2023-07-21 00:00:00,Rice,Grains,Store_1,34.0,34.0,0.0,23.0,Winter
+2023-05-27 00:00:00,Banana,Fruits,Store_1,28.0,28.0,0.0,24.0,Autumn
+2023-12-28 00:00:00,Bread,Bakery,Store_1,24.0,24.0,0.0,15.0,Rainy
+2023-01-02 00:00:00,Chicken,Meat,Store_2,34.0,16.0,18.0,26.0,Rainy
+2023-10-15 00:00:00,Eggs,Dairy,Store_3,26.0,20.0,6.0,17.0,Hot
+2023-02-09 00:00:00, bread ,Bakery,Store_3,38.0,19.0,19.0,16.0,Rainy
+2023-10-19 00:00:00,Orange,Fruits,Store_3,32.0,32.0,0.0,23.0,Hot
+2023-01-10 00:00:00,Shampoo,Personal Care,Store_3,33.0,20.0,13.0,25.0,Rainy
+2023-03-20 00:00:00,Chicken,Meat,Store_1,30.0,19.0,11.0,12.0,Autumn
+2023-09-03 00:00:00,Bread,Bakery,Store_3,30.0,26.0,4.0,11.0,Hot
+2023-11-19 00:00:00,Soap,Personal Care,Store_1,35.0,26.0,9.0,28.0,Rainy
+2023-06-24 00:00:00,Eggs,Dairy,Store_1,33.0,24.0,9.0,24.0,Winter
+2023-05-31 00:00:00,Bread,Bakery,Store_1,35.0,26.0,9.0,14.0,Autumn
+2023-09-16 00:00:00, milk ,Dairy,Store_3,30.0,26.0,4.0,14.0,Hot
+2023-06-07 00:00:00,Milk,Dairy,Store_3,35.0,26.0,9.0,23.0,Winter
+2023-03-28 00:00:00,Apple,Fruits,Store_1,36.0,13.0,23.0,16.0,Autumn
+2023-04-14 00:00:00, banana ,Fruits,Store_3,28.0,23.0,5.0,20.0,Autumn
+2023-04-05 00:00:00,Orange,Fruits,Store_3,29.0,21.0,8.0,21.0,Autumn
+2023-07-21 00:00:00,Bread,Bakery,Store_3,32.0,28.0,4.0,24.0,Winter
+2023-03-26 00:00:00,Banana,Fruits,Store_1,29.0,24.0,5.0,15.0,Autumn
+2023-02-01 00:00:00,Apple,Fruits,Store_2,32.0,32.0,0.0,15.0,Rainy
+2023-04-22 00:00:00,Orange,Fruits,Store_2,30.0,17.0,13.0,10.0,Autumn
+2023-07-06 00:00:00,Bread,Bakery,Store_3,29.0,29.0,0.0,10.0,Winter
+2023-07-18 00:00:00, soap ,Personal Care,Store_1,34.0,34.0,0.0,17.0,Winter
+2023-12-17 00:00:00, rice ,Grains,Store_3,29.0,29.0,0.0,21.0,Rainy
+2023-09-22 00:00:00,Orange,Fruits,Store_3,35.0,35.0,0.0,29.0,Hot
+2023-07-21 00:00:00, shampoo ,Personal Care,Store_3,26.0,21.0,5.0,26.0,Winter
+2023-06-07 00:00:00,Milk,Dairy,Store_3,28.0,22.0,6.0,28.0,Winter
+2023-12-25 00:00:00,Orange,Fruits,Store_2,24.0,24.0,0.0,28.0,Rainy
+2023-03-23 00:00:00,Apple,Fruits,Store_1,23.0,20.0,3.0,28.0,Autumn
+2023-07-10 00:00:00,Milk,Dairy,Store_3,21.0,21.0,0.0,21.0,Winter
+2023-06-05 00:00:00,Apple,Fruits,Store_1,37.0,19.0,18.0,21.0,Winter
+2023-12-18 00:00:00,Orange,Fruits,Store_2,26.0,26.0,0.0,11.0,Rainy
+2023-07-25 00:00:00,Apple,Fruits,Store_1,18.0,18.0,0.0,21.0,Winter
+2023-06-10 00:00:00,Soap,Personal Care,Store_2,27.0,27.0,0.0,27.0,Winter
+2023-03-24 00:00:00,Apple,Fruits,Store_2,40.0,31.0,9.0,28.0,Autumn
+2023-11-20 00:00:00,Eggs,Dairy,Store_2,30.0,30.0,0.0,24.0,Rainy
+2023-09-22 00:00:00,Shampoo,Personal Care,Store_3,39.0,27.0,12.0,20.0,Hot
+2023-02-24 00:00:00,Shampoo,Personal Care,Store_1,23.0,23.0,0.0,10.0,Rainy
+2023-11-16 00:00:00,Banana,Fruits,Store_3,36.0,30.0,6.0,13.0,Rainy
+2023-09-17 00:00:00,Soap,Personal Care,Store_3,33.0,21.0,12.0,18.0,Hot
+2023-05-16 00:00:00,Bread,Bakery,Store_3,22.0,22.0,0.0,29.0,Autumn
+2023-12-24 00:00:00,Banana,Fruits,Store_3,48.0,39.0,9.0,27.0,Rainy
+2023-09-19 00:00:00,Banana,Fruits,Store_1,21.0,21.0,0.0,22.0,Hot
+2023-04-14 00:00:00,Soap,Personal Care,Store_2,31.0,25.0,6.0,12.0,Autumn
+2023-05-20 00:00:00,Eggs,Dairy,Store_2,19.0,19.0,0.0,18.0,Autumn
+2023-04-11 00:00:00,Rice,Grains,Store_3,31.0,24.0,7.0,20.0,Autumn
+2023-09-11 00:00:00,Eggs,Dairy,Store_2,34.0,28.0,6.0,10.0,Hot
+2023-08-15 00:00:00, shampoo ,Personal Care,Store_2,27.0,27.0,0.0,22.0,Winter
+2023-03-02 00:00:00,Rice,Grains,Store_3,27.0,27.0,0.0,25.0,Autumn
+2023-12-07 00:00:00,Soap,Personal Care,Store_1,28.0,28.0,0.0,16.0,Rainy
+2023-10-09 00:00:00,Orange,Fruits,Store_3,32.0,32.0,0.0,17.0,Hot
+2023-08-24 00:00:00, banana ,Fruits,Store_1,42.0,21.0,21.0,12.0,Winter
+2023-01-13 00:00:00,Banana,Fruits,Store_1,39.0,35.0,4.0,15.0,Rainy
+2023-11-13 00:00:00, rice ,Grains,Store_1,36.0,30.0,6.0,27.0,Rainy
+2023-03-16 00:00:00,Apple,Fruits,Store_3,27.0,27.0,0.0,10.0,Autumn
+2023-11-23 00:00:00,Chicken,Meat,Store_1,27.0,24.0,3.0,26.0,Rainy
+2023-06-16 00:00:00,Eggs,Dairy,Store_1,21.0,21.0,0.0,22.0,Winter
+2023-04-28 00:00:00,Milk,Dairy,Store_1,31.0,30.0,1.0,19.0,Autumn
+2023-10-03 00:00:00,Orange,Fruits,Store_3,42.0,41.0,1.0,23.0,Hot
+2023-03-11 00:00:00,Milk,Dairy,Store_1,28.0,25.0,3.0,15.0,Autumn
+2023-12-08 00:00:00,Chicken,Meat,Store_1,29.0,26.0,3.0,19.0,Rainy
+2023-04-05 00:00:00,Milk,Dairy,Store_3,35.0,25.0,10.0,23.0,Autumn
+2023-09-18 00:00:00,Bread,Bakery,Store_3,32.0,25.0,7.0,18.0,Hot
+2023-05-27 00:00:00,Eggs,Dairy,Store_1,34.0,31.0,3.0,13.0,Autumn
+2023-01-30 00:00:00,Apple,Fruits,Store_1,35.0,33.0,2.0,23.0,Rainy
+2023-12-20 00:00:00,Orange,Fruits,Store_3,32.0,32.0,0.0,19.0,Rainy
+2023-01-17 00:00:00,Chicken,Meat,Store_1,30.0,23.0,7.0,10.0,Rainy
+2023-03-20 00:00:00, milk ,Dairy,Store_3,26.0,26.0,0.0,25.0,Autumn
+2023-12-20 00:00:00,Milk,Dairy,Store_1,23.0,15.0,8.0,25.0,Rainy
+2023-06-19 00:00:00,Apple,Fruits,Store_1,29.0,23.0,6.0,16.0,Winter
+2023-03-19 00:00:00,Rice,Grains,Store_2,23.0,23.0,0.0,18.0,Autumn
+2023-02-01 00:00:00,Shampoo,Personal Care,Store_1,27.0,19.0,8.0,16.0,Rainy
+2023-01-13 00:00:00,Apple,Fruits,Store_1,26.0,26.0,0.0,25.0,Rainy
+2023-08-11 00:00:00,Chicken,Meat,Store_3,27.0,19.0,8.0,20.0,Winter
+2023-04-03 00:00:00,Eggs,Dairy,Store_2,33.0,24.0,9.0,18.0,Autumn
+2023-04-18 00:00:00,Bread,Bakery,Store_3,33.0,22.0,11.0,11.0,Autumn
+2023-01-19 00:00:00,Milk,Dairy,Store_3,27.0,21.0,6.0,16.0,Rainy
+2023-08-18 00:00:00,Milk,Dairy,Store_2,30.0,28.0,2.0,24.0,Winter
+2023-05-26 00:00:00,Banana,Fruits,Store_2,24.0,24.0,0.0,10.0,Autumn
+2023-03-14 00:00:00,Bread,Bakery,Store_1,25.0,25.0,0.0,26.0,Autumn
+2023-07-23 00:00:00,Milk,Dairy,Store_1,36.0,33.0,3.0,21.0,Winter
+2023-03-28 00:00:00,Eggs,Dairy,Store_2,28.0,24.0,4.0,16.0,Autumn
+2023-04-15 00:00:00,Banana,Fruits,Store_1,22.0,22.0,0.0,13.0,Autumn
+2023-08-30 00:00:00,Milk,Dairy,Store_3,20.0,20.0,0.0,29.0,Winter
+2023-08-31 00:00:00,Banana,Fruits,Store_2,29.0,29.0,0.0,23.0,Winter
+2023-07-24 00:00:00,Eggs,Dairy,Store_2,29.0,25.0,4.0,16.0,Winter
+2023-02-05 00:00:00,Shampoo,Personal Care,Store_2,25.0,25.0,0.0,22.0,Rainy
+2023-09-29 00:00:00,Shampoo,Personal Care,Store_2,27.0,16.0,11.0,13.0,Hot
+2023-01-29 00:00:00,Eggs,Dairy,Store_3,38.0,29.0,9.0,29.0,Rainy
+2023-10-25 00:00:00,Milk,Dairy,Store_2,36.0,23.0,13.0,18.0,Hot
+2023-07-03 00:00:00,Orange,Fruits,Store_3,21.0,13.0,8.0,10.0,Winter
+2023-05-08 00:00:00,Bread,Bakery,Store_3,21.0,21.0,0.0,13.0,Autumn
+2023-02-07 00:00:00,Orange,Fruits,Store_1,37.0,32.0,5.0,11.0,Rainy
+2023-10-30 00:00:00,Rice,Grains,Store_3,37.0,28.0,9.0,27.0,Hot
+2023-01-04 00:00:00, rice ,Grains,Store_3,29.0,28.0,1.0,26.0,Rainy
+2023-02-26 00:00:00,Soap,Personal Care,Store_1,35.0,21.0,14.0,20.0,Rainy
+2023-12-25 00:00:00,Banana,Fruits,Store_3,12.0,12.0,0.0,26.0,Rainy
+2023-03-15 00:00:00,Rice,Grains,Store_2,46.0,19.0,27.0,20.0,Autumn
+2023-05-11 00:00:00,Eggs,Dairy,Store_3,20.0,20.0,0.0,14.0,Autumn
+2023-05-14 00:00:00,Soap,Personal Care,Store_2,37.0,24.0,13.0,12.0,Autumn
+2023-11-16 00:00:00,Rice,Grains,Store_3,23.0,23.0,0.0,16.0,Rainy
+2023-07-20 00:00:00,Eggs,Dairy,Store_2,22.0,22.0,0.0,24.0,Winter
+2023-03-24 00:00:00,Orange,Fruits,Store_2,19.0,19.0,0.0,27.0,Autumn
+2023-07-11 00:00:00,Bread,Bakery,Store_2,30.0,27.0,3.0,20.0,Winter
+2023-11-23 00:00:00,Orange,Fruits,Store_3,30.0,30.0,0.0,16.0,Rainy
+2023-04-18 00:00:00,Milk,Dairy,Store_2,35.0,25.0,10.0,17.0,Autumn
+2023-12-17 00:00:00, eggs ,Dairy,Store_3,25.0,22.0,3.0,29.0,Rainy
+2023-09-13 00:00:00, apple ,Fruits,Store_1,24.0,24.0,0.0,23.0,Hot
+2023-06-02 00:00:00,Soap,Personal Care,Store_2,31.0,26.0,5.0,15.0,Winter
+2023-12-09 00:00:00,Bread,Bakery,Store_3,29.0,22.0,7.0,25.0,Rainy
+2023-05-04 00:00:00,Banana,Fruits,Store_3,29.0,25.0,4.0,21.0,Autumn
+2023-04-23 00:00:00,Chicken,Meat,Store_3,39.0,26.0,13.0,19.0,Autumn
+2023-08-28 00:00:00, chicken ,Meat,Store_1,29.0,29.0,0.0,27.0,Winter
+2023-11-12 00:00:00,Rice,Grains,Store_1,33.0,20.0,13.0,14.0,Rainy
+2023-04-24 00:00:00,Apple,Fruits,Store_3,29.0,29.0,0.0,16.0,Autumn
+2023-05-06 00:00:00,Eggs,Dairy,Store_1,29.0,29.0,0.0,14.0,Autumn
+2023-11-23 00:00:00,Eggs,Dairy,Store_2,32.0,31.0,1.0,16.0,Rainy
+2023-07-09 00:00:00,Soap,Personal Care,Store_3,28.0,28.0,0.0,17.0,Winter
+2023-01-26 00:00:00,Milk,Dairy,Store_1,29.0,20.0,9.0,14.0,Rainy
+2023-03-10 00:00:00, banana ,Fruits,Store_1,35.0,35.0,0.0,27.0,Autumn
+2023-04-26 00:00:00,Eggs,Dairy,Store_2,21.0,21.0,0.0,23.0,Autumn
+2023-01-13 00:00:00,Rice,Grains,Store_2,26.0,23.0,3.0,23.0,Rainy
+2023-10-22 00:00:00, soap ,Personal Care,Store_2,35.0,24.0,11.0,25.0,Hot
+2023-10-03 00:00:00,Rice,Grains,Store_2,21.0,21.0,0.0,12.0,Hot
+2023-05-17 00:00:00,Bread,Bakery,Store_2,24.0,22.0,2.0,22.0,Autumn
+2023-02-13 00:00:00,Banana,Fruits,Store_3,29.0,28.0,1.0,14.0,Rainy
+2023-10-20 00:00:00,Bread,Bakery,Store_3,26.0,23.0,3.0,20.0,Hot
+2023-01-13 00:00:00,Apple,Fruits,Store_1,30.0,30.0,0.0,24.0,Rainy
+2023-03-12 00:00:00,Soap,Personal Care,Store_1,26.0,26.0,0.0,23.0,Autumn
+2023-04-21 00:00:00,Soap,Personal Care,Store_3,27.0,25.0,2.0,15.0,Autumn
+2023-03-24 00:00:00,Orange,Fruits,Store_2,41.0,27.0,14.0,12.0,Autumn
+2023-12-03 00:00:00,Chicken,Meat,Store_1,27.0,21.0,6.0,14.0,Rainy
+2023-01-31 00:00:00,Bread,Bakery,Store_2,35.0,30.0,5.0,15.0,Rainy
+2023-01-02 00:00:00, chicken ,Meat,Store_1,36.0,26.0,10.0,29.0,Rainy
+2023-05-13 00:00:00,Soap,Personal Care,Store_2,31.0,30.0,1.0,16.0,Autumn
+2023-07-29 00:00:00,Orange,Fruits,Store_1,32.0,32.0,0.0,26.0,Winter
+2023-12-08 00:00:00,Soap,Personal Care,Store_1,26.0,26.0,0.0,16.0,Rainy
+2023-04-19 00:00:00,Soap,Personal Care,Store_3,31.0,27.0,4.0,20.0,Autumn
+2023-09-04 00:00:00,Chicken,Meat,Store_2,37.0,25.0,12.0,16.0,Hot
+2023-02-12 00:00:00,Apple,Fruits,Store_3,25.0,25.0,0.0,29.0,Rainy
+2023-12-25 00:00:00,Shampoo,Personal Care,Store_3,32.0,24.0,8.0,24.0,Rainy
+2023-05-24 00:00:00,Orange,Fruits,Store_2,32.0,25.0,7.0,18.0,Autumn
+2023-07-24 00:00:00,Shampoo,Personal Care,Store_3,29.0,21.0,8.0,28.0,Winter
+2023-12-26 00:00:00,Milk,Dairy,Store_1,36.0,25.0,11.0,11.0,Rainy
+2023-03-20 00:00:00,Eggs,Dairy,Store_2,34.0,27.0,7.0,29.0,Autumn
+2023-11-30 00:00:00,Shampoo,Personal Care,Store_1,35.0,25.0,10.0,16.0,Rainy
+2023-07-28 00:00:00,Apple,Fruits,Store_1,31.0,27.0,4.0,11.0,Winter
+2023-08-20 00:00:00,Banana,Fruits,Store_3,28.0,21.0,7.0,19.0,Winter
+2023-01-26 00:00:00,Bread,Bakery,Store_2,26.0,26.0,0.0,23.0,Rainy
+2023-06-26 00:00:00,Soap,Personal Care,Store_3,31.0,26.0,5.0,28.0,Winter
+2023-06-09 00:00:00,Banana,Fruits,Store_1,28.0,23.0,5.0,14.0,Winter
+2023-01-13 00:00:00,Bread,Bakery,Store_3,21.0,21.0,0.0,27.0,Rainy
+2023-11-24 00:00:00,Shampoo,Personal Care,Store_2,28.0,25.0,3.0,28.0,Rainy
+2023-09-23 00:00:00,Orange,Fruits,Store_3,28.0,28.0,0.0,20.0,Hot
+invalid_date,,Unknown,Store_1,-100.0,8888.0,7777.0,,N/A
+2023-09-25 00:00:00,Rice,Grains,Store_3,35.0,32.0,3.0,29.0,Hot
+2023-12-27 00:00:00,Orange,Fruits,Store_3,26.0,24.0,2.0,11.0,Rainy
+2023-10-09 00:00:00,Rice,Grains,Store_2,32.0,28.0,4.0,16.0,Hot
+2023-08-28 00:00:00,Orange,Fruits,Store_3,37.0,26.0,11.0,13.0,Winter
+2023-12-22 00:00:00,Milk,Dairy,Store_3,21.0,21.0,0.0,15.0,Rainy
+2023-08-22 00:00:00,Apple,Fruits,Store_3,33.0,22.0,11.0,10.0,Winter
+2023-05-19 00:00:00, shampoo ,Personal Care,Store_2,36.0,15.0,21.0,27.0,Autumn
+2023-04-21 00:00:00,Milk,Dairy,Store_2,29.0,22.0,7.0,23.0,Autumn
+2023-06-16 00:00:00,Milk,Dairy,Store_2,28.0,25.0,3.0,18.0,Winter
+2023-10-19 00:00:00,Soap,Personal Care,Store_3,25.0,24.0,1.0,13.0,Hot
+2023-01-30 00:00:00,Milk,Dairy,Store_2,28.0,21.0,7.0,24.0,Rainy
+2023-02-23 00:00:00,Eggs,Dairy,Store_1,38.0,25.0,13.0,18.0,Rainy
+2023-10-23 00:00:00,Rice,Grains,Store_3,27.0,27.0,0.0,18.0,Hot
+2023-09-29 00:00:00,Milk,Dairy,Store_2,21.0,21.0,0.0,23.0,Hot
+2023-10-11 00:00:00,Soap,Personal Care,Store_1,32.0,27.0,5.0,28.0,Hot
+2023-04-20 00:00:00,Eggs,Dairy,Store_3,32.0,24.0,8.0,26.0,Autumn
+2023-08-25 00:00:00,Banana,Fruits,Store_3,30.0,22.0,8.0,10.0,Winter
+2023-09-19 00:00:00,Rice,Grains,Store_3,21.0,21.0,0.0,26.0,Hot
+2023-11-17 00:00:00,Banana,Fruits,Store_1,28.0,28.0,0.0,15.0,Rainy
+2023-12-25 00:00:00,Apple,Fruits,Store_1,27.0,24.0,3.0,11.0,Rainy
+2023-06-03 00:00:00,Milk,Dairy,Store_2,36.0,35.0,1.0,22.0,Winter
+2023-07-15 00:00:00,Shampoo,Personal Care,Store_1,30.0,30.0,0.0,22.0,Winter
+2023-05-29 00:00:00,Orange,Fruits,Store_1,47.0,21.0,26.0,28.0,Autumn
+2023-11-13 00:00:00,Soap,Personal Care,Store_1,21.0,21.0,0.0,15.0,Rainy
+2023-11-13 00:00:00,Orange,Fruits,Store_3,31.0,30.0,1.0,25.0,Rainy
+2023-11-21 00:00:00,Chicken,Meat,Store_3,31.0,22.0,9.0,23.0,Rainy
+2023-06-26 00:00:00,Orange,Fruits,Store_2,31.0,14.0,17.0,23.0,Winter
+2023-02-20 00:00:00,Milk,Dairy,Store_3,32.0,21.0,11.0,17.0,Rainy
+2023-10-12 00:00:00,Apple,Fruits,Store_1,34.0,30.0,4.0,20.0,Hot
+2023-09-07 00:00:00,Rice,Grains,Store_2,18.0,15.0,3.0,27.0,Hot
+2023-06-14 00:00:00,Apple,,Store_2,17.0,17.0,0.0,26.0,Winter
+2023-02-11 00:00:00,Eggs,Dairy,Store_1,32.0,22.0,10.0,17.0,Rainy
+,Apple,Fruits,Store_1,27.0,27.0,0.0,19.0,
+2023-05-28 00:00:00,Eggs,Dairy,Store_3,31.0,28.0,3.0,25.0,Autumn
+2023-05-24 00:00:00,Shampoo,Personal Care,Store_2,32.0,30.0,2.0,25.0,Autumn
+2023-12-08 00:00:00,Rice,Grains,Store_1,29.0,19.0,10.0,20.0,Rainy
+2023-05-23 00:00:00,Banana,Fruits,Store_1,31.0,22.0,9.0,18.0,Autumn
+2023-12-20 00:00:00,Rice,Grains,Store_1,33.0,28.0,5.0,27.0,Rainy
+2023-03-02 00:00:00,Milk,Dairy,Store_1,31.0,22.0,9.0,22.0,Autumn
+2023-06-30 00:00:00,Milk,Dairy,Store_3,19.0,19.0,0.0,29.0,Winter
+2023-04-27 00:00:00,Shampoo,Personal Care,Store_3,33.0,33.0,0.0,25.0,Autumn
+2023-03-05 00:00:00,Soap,Personal Care,Store_1,20.0,20.0,0.0,22.0,Autumn
+2023-07-27 00:00:00,Eggs,Dairy,Store_3,31.0,30.0,1.0,26.0,Winter
+2023-10-18 00:00:00,Banana,Fruits,Store_2,21.0,21.0,0.0,10.0,Hot
+2023-12-22 00:00:00, shampoo ,Personal Care,Store_3,38.0,24.0,14.0,29.0,Rainy
+2023-07-28 00:00:00, milk ,Dairy,Store_1,25.0,21.0,4.0,11.0,Winter
+2023-01-09 00:00:00,Rice,Grains,Store_2,18.0,18.0,0.0,13.0,Rainy
+2023-02-06 00:00:00,Chicken,Meat,Store_2,32.0,25.0,7.0,29.0,Rainy
+2023-01-13 00:00:00,Milk,Dairy,Store_2,46.0,25.0,21.0,19.0,Rainy
+2023-04-30 00:00:00,Milk,Dairy,Store_3,30.0,30.0,0.0,24.0,Autumn
+2023-03-14 00:00:00, rice ,Grains,Store_3,26.0,25.0,1.0,17.0,Autumn
+2023-04-15 00:00:00,Shampoo,Personal Care,Store_2,32.0,23.0,9.0,16.0,Autumn
+2023-02-26 00:00:00,Apple,Fruits,Store_3,18.0,18.0,0.0,13.0,Rainy
+2023-08-15 00:00:00,Banana,Fruits,Store_3,23.0,14.0,9.0,23.0,Winter
+2023-04-11 00:00:00,Eggs,Dairy,Store_3,40.0,25.0,15.0,12.0,Autumn
+2023-01-27 00:00:00,Bread,Bakery,Store_3,28.0,24.0,4.0,28.0,Rainy
+2023-07-27 00:00:00,Shampoo,Personal Care,Store_1,32.0,26.0,6.0,23.0,Winter
+2023-11-05 00:00:00,Apple,Fruits,Store_1,25.0,25.0,0.0,11.0,Rainy
+2023-03-11 00:00:00, apple ,Fruits,Store_3,22.0,22.0,0.0,17.0,Autumn
+2023-11-27 00:00:00,Shampoo,Personal Care,Store_3,27.0,27.0,0.0,24.0,Rainy
+2023-01-21 00:00:00,Rice,Grains,Store_2,31.0,14.0,17.0,10.0,Rainy
+2023-08-15 00:00:00,Orange,Fruits,Store_3,22.0,22.0,0.0,29.0,Winter
+2023-06-27 00:00:00,Shampoo,Personal Care,Store_3,27.0,24.0,3.0,21.0,Winter
+2023-09-04 00:00:00,Apple,Fruits,Store_3,32.0,32.0,0.0,20.0,Hot
+2023-06-26 00:00:00, chicken ,Meat,Store_1,29.0,25.0,4.0,29.0,Winter
+2023-07-27 00:00:00,Eggs,Dairy,Store_2,27.0,26.0,1.0,12.0,Winter
+2023-11-14 00:00:00,Chicken,Meat,Store_2,21.0,21.0,0.0,26.0,Rainy
+2023-08-14 00:00:00,Orange,Fruits,Store_3,21.0,21.0,0.0,22.0,Winter
+2023-08-04 00:00:00,Eggs,Dairy,Store_3,31.0,29.0,2.0,28.0,Winter
+2023-09-22 00:00:00,Apple,,Store_1,32.0,32.0,0.0,20.0,Hot
+2023-09-19 00:00:00,Orange,Fruits,Store_1,39.0,32.0,7.0,28.0,Hot
+2023-04-19 00:00:00,Apple,Fruits,Store_3,23.0,23.0,0.0,14.0,Autumn
+2023-11-26 00:00:00,Soap,Personal Care,Store_3,23.0,23.0,0.0,22.0,Rainy
+2023-05-20 00:00:00,Chicken,Meat,Store_3,35.0,32.0,3.0,22.0,Autumn
+2023-10-14 00:00:00,Bread,Bakery,Store_3,33.0,26.0,7.0,29.0,Hot
+2023-08-21 00:00:00,Milk,Dairy,Store_3,25.0,25.0,0.0,13.0,Winter
+2023-11-07 00:00:00,Milk,Dairy,Store_1,15.0,15.0,0.0,28.0,Rainy
+2023-12-16 00:00:00,Soap,Personal Care,Store_3,28.0,28.0,0.0,21.0,Rainy
+2023-05-13 00:00:00,Chicken,Meat,Store_1,25.0,25.0,0.0,16.0,Autumn
+2023-04-19 00:00:00,Banana,Fruits,Store_3,31.0,29.0,2.0,11.0,Autumn
+2023-03-11 00:00:00,Orange,Fruits,Store_1,32.0,20.0,12.0,27.0,Autumn
+2023-08-16 00:00:00,Bread,Bakery,Store_1,38.0,38.0,0.0,14.0,Winter
+2023-07-26 00:00:00,Shampoo,Personal Care,Store_2,28.0,25.0,3.0,11.0,Winter
+2023-06-10 00:00:00,Orange,Fruits,Store_1,37.0,23.0,14.0,23.0,Winter
+2023-10-21 00:00:00,Orange,Fruits,Store_2,35.0,30.0,5.0,22.0,Hot
+2023-08-27 00:00:00,Apple,Fruits,Store_3,24.0,18.0,6.0,29.0,Winter
+2023-02-15 00:00:00,Chicken,Meat,Store_2,33.0,25.0,8.0,20.0,Rainy
+2023-10-13 00:00:00,Milk,Dairy,Store_1,31.0,27.0,4.0,15.0,Hot
+2023-04-04 00:00:00, shampoo ,Personal Care,Store_3,28.0,18.0,10.0,20.0,Autumn
+2023-05-15 00:00:00,Eggs,Dairy,Store_3,35.0,27.0,8.0,17.0,Autumn
+2023-02-18 00:00:00,Orange,Fruits,Store_1,32.0,31.0,1.0,16.0,Rainy
+2023-02-26 00:00:00,Eggs,Dairy,Store_2,33.0,16.0,17.0,16.0,Rainy
+2023-08-04 00:00:00,Orange,Fruits,Store_1,32.0,30.0,2.0,12.0,Winter
+2023-01-26 00:00:00,Chicken,Meat,Store_3,19.0,19.0,0.0,10.0,Rainy
+2023-09-19 00:00:00,Banana,Fruits,Store_1,32.0,21.0,11.0,20.0,Hot
+2023-10-13 00:00:00,Apple,Fruits,Store_1,27.0,27.0,0.0,28.0,Hot
+2023-03-26 00:00:00,Shampoo,Personal Care,Store_2,30.0,27.0,3.0,15.0,Autumn
+2023-02-23 00:00:00,Orange,Fruits,Store_2,27.0,27.0,0.0,10.0,Rainy
+2023-06-18 00:00:00,Shampoo,Personal Care,Store_3,29.0,18.0,11.0,25.0,Winter
+2023-11-06 00:00:00,Soap,Personal Care,Store_1,32.0,31.0,1.0,21.0,Rainy
+2023-08-16 00:00:00,Banana,Fruits,Store_1,33.0,29.0,4.0,19.0,Winter
+2023-09-23 00:00:00,Bread,Bakery,Store_2,24.0,24.0,0.0,27.0,Hot
+2023-07-05 00:00:00,Banana,Fruits,Store_3,26.0,26.0,0.0,11.0,Winter
+2023-11-02 00:00:00,Bread,Bakery,Store_3,30.0,17.0,13.0,22.0,Rainy
+2023-12-02 00:00:00,Chicken,Meat,Store_1,27.0,22.0,5.0,14.0,Rainy
+2023-10-21 00:00:00,Chicken,Meat,Store_1,25.0,25.0,0.0,22.0,Hot
+invalid_date,,Unknown,Store_3,,-50.0,7777.0,,N/A
+2023-11-17 00:00:00,Eggs,Dairy,Store_1,31.0,19.0,12.0,22.0,Rainy
+2023-09-15 00:00:00,Soap,Personal Care,Store_3,37.0,19.0,18.0,13.0,Hot
+2023-01-03 00:00:00,Soap,Personal Care,Store_2,20.0,20.0,0.0,12.0,Rainy
+2023-10-23 00:00:00,Milk,Dairy,Store_2,30.0,30.0,0.0,18.0,Hot
+2023-03-16 00:00:00,Apple,Fruits,Store_3,23.0,23.0,0.0,21.0,Autumn
+2023-07-10 00:00:00,Bread,Bakery,Store_1,35.0,28.0,7.0,13.0,Winter
+2023-02-18 00:00:00,Eggs,Dairy,Store_1,44.0,24.0,20.0,26.0,Rainy
+2023-11-03 00:00:00, apple ,Fruits,Store_1,22.0,22.0,0.0,22.0,Rainy
+2023-04-05 00:00:00,Apple,Fruits,Store_1,40.0,21.0,19.0,27.0,Autumn
+2023-10-04 00:00:00, chicken ,Meat,Store_2,33.0,33.0,0.0,25.0,Hot
+2023-06-21 00:00:00,Orange,Fruits,Store_2,26.0,26.0,0.0,22.0,Winter
+2023-01-31 00:00:00,Orange,Fruits,Store_1,34.0,29.0,5.0,18.0,Rainy
+2023-08-17 00:00:00,Banana,Fruits,Store_2,32.0,30.0,2.0,10.0,Winter
+2023-05-03 00:00:00, banana ,Fruits,Store_2,31.0,30.0,1.0,10.0,Autumn
+2023-09-22 00:00:00,Eggs,Dairy,Store_2,33.0,31.0,2.0,20.0,Hot
+2023-09-21 00:00:00,Banana,Fruits,Store_3,32.0,25.0,7.0,12.0,Hot
+2023-05-13 00:00:00,Bread,Bakery,Store_1,33.0,25.0,8.0,16.0,Autumn
+2023-12-20 00:00:00, milk ,Dairy,Store_3,36.0,19.0,17.0,20.0,Rainy
+2023-04-28 00:00:00,Bread,Bakery,Store_2,26.0,25.0,1.0,29.0,Autumn
+2023-05-10 00:00:00,Bread,Bakery,Store_2,26.0,22.0,4.0,28.0,Autumn
+2023-08-03 00:00:00,Bread,Bakery,Store_2,32.0,30.0,2.0,21.0,Winter
+2023-05-25 00:00:00,Bread,Bakery,Store_3,23.0,23.0,0.0,14.0,Autumn
+2023-03-14 00:00:00,Banana,Fruits,Store_2,36.0,24.0,12.0,12.0,Autumn
+2023-07-23 00:00:00,Orange,Fruits,Store_1,25.0,25.0,0.0,18.0,Winter
+2023-02-28 00:00:00,Rice,Grains,Store_2,29.0,19.0,10.0,21.0,Rainy
+2023-11-18 00:00:00,Chicken,Meat,Store_1,25.0,18.0,7.0,25.0,Rainy
+2023-01-15 00:00:00,Rice,Grains,Store_1,34.0,20.0,14.0,20.0,Rainy
+2023-11-09 00:00:00,Milk,Dairy,Store_3,36.0,30.0,6.0,22.0,Rainy
+2023-04-21 00:00:00,Apple,Fruits,Store_3,23.0,23.0,0.0,16.0,Autumn
+2023-02-10 00:00:00,Shampoo,Personal Care,Store_3,32.0,19.0,13.0,17.0,Rainy
+2023-06-07 00:00:00,Milk,Dairy,Store_3,27.0,27.0,0.0,17.0,Winter
+2023-06-29 00:00:00,Milk,Dairy,Store_2,23.0,23.0,0.0,10.0,Winter
+2023-08-28 00:00:00, rice ,Grains,Store_3,34.0,21.0,13.0,14.0,Winter
+2023-09-25 00:00:00,Bread,Bakery,Store_3,30.0,20.0,10.0,20.0,Hot
+2023-08-22 00:00:00,Bread,Bakery,Store_1,26.0,23.0,3.0,10.0,Winter
+2023-06-17 00:00:00,Eggs,Dairy,Store_3,29.0,29.0,0.0,12.0,Winter
+2023-11-13 00:00:00, shampoo ,Personal Care,Store_3,31.0,24.0,7.0,12.0,Rainy
+2023-11-07 00:00:00,Chicken,Meat,Store_3,28.0,28.0,0.0,24.0,Rainy
+2023-05-31 00:00:00,Shampoo,Personal Care,Store_3,35.0,30.0,5.0,14.0,Autumn
+2023-12-09 00:00:00,Rice,Grains,Store_1,28.0,24.0,4.0,12.0,Rainy
+2023-12-30 00:00:00,Rice,Grains,Store_2,19.0,19.0,0.0,21.0,Rainy
+2023-11-22 00:00:00,Rice,Grains,Store_3,38.0,22.0,16.0,28.0,Rainy
+2023-05-17 00:00:00,Milk,Dairy,Store_3,31.0,24.0,7.0,25.0,Autumn
+2023-06-14 00:00:00,Apple,Fruits,Store_3,36.0,25.0,11.0,15.0,Winter
+2023-10-13 00:00:00,Eggs,Dairy,Store_3,27.0,27.0,0.0,27.0,Hot
+2023-08-13 00:00:00,Milk,Dairy,Store_3,30.0,30.0,0.0,14.0,Winter
+2023-05-28 00:00:00,Rice,Grains,Store_1,25.0,25.0,0.0,14.0,Autumn
+2023-11-19 00:00:00,Bread,Bakery,Store_1,27.0,27.0,0.0,19.0,Rainy
+2023-07-29 00:00:00,Bread,Bakery,Store_3,28.0,28.0,0.0,15.0,Winter
+2023-07-06 00:00:00,Eggs,Dairy,Store_3,33.0,21.0,12.0,23.0,Winter
+2023-04-08 00:00:00,Soap,Personal Care,Store_2,37.0,32.0,5.0,27.0,Autumn
+2023-11-26 00:00:00,Orange,Fruits,Store_2,31.0,31.0,0.0,11.0,Rainy
+2023-10-13 00:00:00,Orange,Fruits,Store_1,29.0,29.0,0.0,28.0,Hot
+2023-03-31 00:00:00,Shampoo,Personal Care,Store_2,31.0,23.0,8.0,21.0,Autumn
+2023-08-21 00:00:00,Chicken,Meat,Store_2,24.0,22.0,2.0,19.0,Winter
+2023-12-03 00:00:00,Eggs,Dairy,Store_3,33.0,23.0,10.0,21.0,Rainy
+2023-12-13 00:00:00,Milk,Dairy,Store_2,33.0,22.0,11.0,17.0,Rainy
+2023-03-26 00:00:00,Shampoo,Personal Care,Store_3,28.0,21.0,7.0,13.0,Autumn
+2023-11-03 00:00:00,Shampoo,Personal Care,Store_2,32.0,23.0,9.0,23.0,Rainy
+2023-08-08 00:00:00, shampoo ,Personal Care,Store_2,30.0,30.0,0.0,27.0,Winter
+2023-02-02 00:00:00,Eggs,Dairy,Store_1,21.0,19.0,2.0,21.0,Rainy
+2023-07-03 00:00:00,Bread,Bakery,Store_3,27.0,23.0,4.0,10.0,Winter
+2023-11-20 00:00:00, eggs ,Dairy,Store_1,36.0,36.0,0.0,12.0,Rainy
+2023-03-26 00:00:00,Chicken,Meat,Store_3,41.0,24.0,17.0,22.0,Autumn
+2023-11-23 00:00:00, soap ,Personal Care,Store_1,21.0,21.0,0.0,13.0,Rainy
+2023-05-03 00:00:00,Banana,Fruits,Store_3,21.0,20.0,1.0,27.0,Autumn
+2023-02-21 00:00:00, chicken ,Meat,Store_1,27.0,25.0,2.0,17.0,Rainy
+2023-11-29 00:00:00,Banana,Fruits,Store_1,40.0,35.0,5.0,21.0,Rainy
+2023-06-05 00:00:00,Banana,Fruits,Store_2,30.0,28.0,2.0,11.0,Winter
+2023-02-19 00:00:00,Chicken,Meat,Store_2,33.0,23.0,10.0,20.0,Rainy
+2023-04-12 00:00:00,Banana,Fruits,Store_1,25.0,25.0,0.0,11.0,Autumn
+2023-01-07 00:00:00,Chicken,Meat,Store_3,36.0,25.0,11.0,18.0,Rainy
+2023-04-04 00:00:00,Soap,Personal Care,Store_1,42.0,34.0,8.0,12.0,Autumn
+2023-02-04 00:00:00,Bread,Bakery,Store_2,27.0,21.0,6.0,20.0,Rainy
+2023-09-17 00:00:00, banana ,Fruits,Store_3,29.0,29.0,0.0,18.0,Hot
+2023-04-05 00:00:00,Banana,Fruits,Store_2,25.0,25.0,0.0,26.0,Autumn
+2023-03-23 00:00:00,Eggs,Dairy,Store_3,25.0,25.0,0.0,14.0,Autumn
+2023-02-13 00:00:00,Milk,Dairy,Store_2,22.0,22.0,0.0,10.0,Rainy
+2023-05-10 00:00:00,Bread,Bakery,Store_2,30.0,30.0,0.0,24.0,Autumn
+2023-12-05 00:00:00,Shampoo,Personal Care,Store_2,20.0,19.0,1.0,20.0,Rainy
+2023-03-07 00:00:00,Rice,Grains,Store_2,33.0,23.0,10.0,19.0,Autumn
+2023-05-12 00:00:00,Eggs,Dairy,Store_1,26.0,26.0,0.0,13.0,Autumn
+2023-05-14 00:00:00,Rice,Grains,Store_1,23.0,23.0,0.0,13.0,Autumn
+2023-02-02 00:00:00,Rice,Grains,Store_3,26.0,26.0,0.0,16.0,Rainy
+2023-01-08 00:00:00,Soap,Personal Care,Store_1,21.0,21.0,0.0,21.0,Rainy
+2023-05-02 00:00:00,Orange,Fruits,Store_1,37.0,36.0,1.0,16.0,Autumn
+2023-10-22 00:00:00,Bread,Bakery,Store_2,30.0,23.0,7.0,16.0,Hot
+2023-09-01 00:00:00,Chicken,Meat,Store_3,31.0,20.0,11.0,21.0,Hot
+2023-07-23 00:00:00,Chicken,Meat,Store_3,24.0,24.0,0.0,18.0,Winter
+2023-04-15 00:00:00,Milk,Dairy,Store_3,26.0,20.0,6.0,15.0,Autumn
+2023-02-08 00:00:00,Rice,Grains,Store_2,33.0,24.0,9.0,10.0,Rainy
+2023-02-15 00:00:00,Eggs,Dairy,Store_2,37.0,28.0,9.0,14.0,Rainy
+2023-07-21 00:00:00,Rice,Grains,Store_2,34.0,19.0,15.0,11.0,Winter
+2023-02-02 00:00:00,Shampoo,Personal Care,Store_3,29.0,25.0,4.0,10.0,Rainy
+2023-06-24 00:00:00,Apple,Fruits,Store_3,35.0,22.0,13.0,12.0,Winter
+2023-11-28 00:00:00,Bread,Bakery,Store_1,25.0,21.0,4.0,24.0,Rainy
+2023-12-02 00:00:00,Orange,Fruits,Store_1,23.0,23.0,0.0,29.0,Rainy
+2023-03-30 00:00:00,Rice,Grains,Store_1,30.0,25.0,5.0,22.0,Autumn
+2023-10-16 00:00:00,Eggs,Dairy,Store_2,33.0,28.0,5.0,20.0,Hot
+2023-08-01 00:00:00,Shampoo,Personal Care,Store_2,31.0,21.0,10.0,19.0,Winter
+2023-03-02 00:00:00,Rice,Grains,Store_2,37.0,16.0,21.0,19.0,Autumn
+2023-05-19 00:00:00,Rice,Grains,Store_3,34.0,24.0,10.0,23.0,Autumn
+2023-11-30 00:00:00,Rice,Grains,Store_2,27.0,27.0,0.0,24.0,Rainy
+2023-11-08 00:00:00,Milk,Dairy,Store_2,28.0,26.0,2.0,26.0,Rainy
+2023-09-12 00:00:00,Eggs,Dairy,Store_1,35.0,28.0,7.0,26.0,Hot
+2023-08-08 00:00:00,Bread,Bakery,Store_3,30.0,30.0,0.0,18.0,Winter
+2023-07-06 00:00:00,Chicken,Meat,Store_2,35.0,20.0,15.0,16.0,Winter
+2023-03-05 00:00:00,Chicken,Meat,Store_2,29.0,22.0,7.0,10.0,Autumn
+2023-12-27 00:00:00,Eggs,Dairy,Store_3,24.0,21.0,3.0,28.0,Rainy
+2023-05-23 00:00:00,Apple,Fruits,Store_2,23.0,20.0,3.0,16.0,Autumn
+2023-10-24 00:00:00,Bread,Bakery,Store_3,26.0,26.0,0.0,10.0,Hot
+2023-10-14 00:00:00,Milk,Dairy,Store_3,31.0,31.0,0.0,15.0,Hot
+2023-12-19 00:00:00,Bread,Bakery,Store_1,28.0,25.0,3.0,25.0,Rainy
+2023-05-16 00:00:00,Milk,Dairy,Store_2,24.0,24.0,0.0,12.0,Autumn
+2023-11-29 00:00:00,Banana,Fruits,Store_1,26.0,26.0,0.0,29.0,Rainy
+2023-05-02 00:00:00,Bread,Bakery,Store_2,28.0,28.0,0.0,20.0,Autumn
+2023-09-26 00:00:00,Milk,Dairy,Store_3,33.0,32.0,1.0,14.0,Hot
+2023-08-24 00:00:00,Bread,Bakery,Store_2,26.0,26.0,0.0,14.0,Winter
+2023-04-26 00:00:00,Chicken,Meat,Store_2,29.0,20.0,9.0,13.0,Autumn
+2023-09-07 00:00:00,Bread,Bakery,Store_2,27.0,22.0,5.0,28.0,Hot
+2023-08-23 00:00:00, orange ,Fruits,Store_2,24.0,23.0,1.0,14.0,Winter
+2023-12-27 00:00:00,Bread,Bakery,Store_3,38.0,23.0,15.0,19.0,Rainy
+2023-12-06 00:00:00,Banana,Fruits,Store_2,38.0,38.0,0.0,16.0,Rainy
+2023-12-10 00:00:00,Orange,Fruits,Store_1,30.0,30.0,0.0,16.0,Rainy
+2023-08-07 00:00:00,Chicken,Meat,Store_3,28.0,19.0,9.0,24.0,Winter
+2023-12-18 00:00:00,Rice,Grains,Store_1,29.0,21.0,8.0,17.0,Rainy
+2023-06-05 00:00:00,Rice,Grains,Store_3,30.0,21.0,9.0,20.0,Winter
+2023-06-02 00:00:00,Chicken,Meat,Store_3,37.0,29.0,8.0,28.0,Winter
+2023-01-24 00:00:00,Chicken,Meat,Store_3,31.0,18.0,13.0,25.0,Rainy
+2023-04-25 00:00:00,Eggs,Dairy,Store_3,31.0,20.0,11.0,10.0,Autumn
+2023-11-17 00:00:00,Soap,Personal Care,Store_1,31.0,21.0,10.0,22.0,Rainy
+2023-08-09 00:00:00,Rice,Grains,Store_1,35.0,21.0,14.0,21.0,Winter
+2023-10-15 00:00:00,Orange,Fruits,Store_2,32.0,32.0,0.0,10.0,Hot
+2023-09-01 00:00:00,Eggs,Dairy,Store_2,32.0,26.0,6.0,29.0,Hot
+2023-04-19 00:00:00,Banana,Fruits,Store_1,34.0,22.0,12.0,13.0,Autumn
+2023-07-12 00:00:00,Milk,Dairy,Store_1,43.0,25.0,18.0,28.0,Winter
+2023-08-13 00:00:00,Rice,Grains,Store_3,27.0,19.0,8.0,23.0,Winter
+2023-02-06 00:00:00,Apple,Fruits,Store_2,28.0,28.0,0.0,12.0,Rainy
+2023-01-25 00:00:00,Soap,Personal Care,Store_1,26.0,25.0,1.0,13.0,Rainy
+2023-01-01 00:00:00,Banana,Fruits,Store_1,24.0,24.0,0.0,11.0,Rainy
+2023-06-16 00:00:00,Rice,Grains,Store_2,36.0,26.0,10.0,23.0,Winter
+2023-02-14 00:00:00,Apple,Fruits,Store_1,45.0,34.0,11.0,19.0,Rainy
+2023-01-12 00:00:00,Bread,Bakery,Store_2,25.0,25.0,0.0,13.0,Rainy
+2023-02-06 00:00:00,Bread,Bakery,Store_3,31.0,21.0,10.0,25.0,Rainy
+2023-05-25 00:00:00,Shampoo,Personal Care,Store_1,35.0,25.0,10.0,21.0,Autumn
+2023-02-15 00:00:00,Apple,Fruits,Store_1,24.0,24.0,0.0,26.0,Rainy
+2023-01-13 00:00:00,Rice,Grains,Store_1,23.0,22.0,1.0,12.0,Rainy
+2023-11-19 00:00:00,Chicken,Meat,Store_1,34.0,26.0,8.0,11.0,Rainy
+2023-06-12 00:00:00,Banana,Fruits,Store_2,25.0,16.0,9.0,23.0,Winter
+2023-03-27 00:00:00,Milk,Dairy,Store_3,26.0,19.0,7.0,10.0,Autumn
+2023-08-03 00:00:00,Shampoo,Personal Care,Store_2,22.0,15.0,7.0,23.0,Winter
+2023-01-05 00:00:00,Eggs,Dairy,Store_2,32.0,32.0,0.0,29.0,Rainy
+2023-06-06 00:00:00,Soap,Personal Care,Store_3,28.0,23.0,5.0,18.0,Winter
+2023-11-13 00:00:00,Banana,Fruits,Store_2,34.0,34.0,0.0,11.0,Rainy
+2023-12-31 00:00:00,Eggs,Dairy,Store_2,31.0,31.0,0.0,21.0,Rainy
+2023-04-15 00:00:00,Apple,Fruits,Store_1,29.0,29.0,0.0,19.0,Autumn
+,Chicken,Meat,Store_2,30.0,27.0,3.0,25.0,
+2023-03-10 00:00:00,Apple,Fruits,Store_3,29.0,29.0,0.0,29.0,Autumn
+2023-08-25 00:00:00,Apple,Fruits,Store_3,25.0,25.0,0.0,16.0,Winter
+2023-04-19 00:00:00,Orange,Fruits,Store_2,36.0,17.0,19.0,27.0,Autumn
+2023-09-16 00:00:00,Banana,Fruits,Store_3,37.0,34.0,3.0,23.0,Hot
+2023-07-08 00:00:00,Apple,Fruits,Store_1,28.0,24.0,4.0,19.0,Winter
+2023-07-18 00:00:00,Chicken,Meat,Store_1,27.0,25.0,2.0,14.0,Winter
+2023-02-11 00:00:00,Soap,Personal Care,Store_2,31.0,31.0,0.0,28.0,Rainy
+2023-05-05 00:00:00,Rice,Grains,Store_2,23.0,23.0,0.0,22.0,Autumn
+2023-01-14 00:00:00,Milk,Dairy,Store_2,42.0,20.0,22.0,27.0,Rainy
+2023-02-01 00:00:00,Orange,Fruits,Store_3,23.0,23.0,0.0,25.0,Rainy
+2023-12-12 00:00:00,Bread,Bakery,Store_3,36.0,27.0,9.0,20.0,Rainy
+2023-08-28 00:00:00,Orange,Fruits,Store_3,30.0,30.0,0.0,18.0,Winter
+2023-10-05 00:00:00,Orange,Fruits,Store_1,21.0,21.0,0.0,13.0,Hot
+2023-09-14 00:00:00,Bread,Bakery,Store_2,23.0,23.0,0.0,29.0,Hot
+2023-02-03 00:00:00,Soap,Personal Care,Store_1,31.0,21.0,10.0,10.0,Rainy
+2023-03-28 00:00:00,Bread,Bakery,Store_3,30.0,22.0,8.0,28.0,Autumn
+2023-07-15 00:00:00,Milk,Dairy,Store_1,37.0,37.0,0.0,27.0,Winter
+2023-12-09 00:00:00,Apple,Fruits,Store_2,33.0,29.0,4.0,19.0,Rainy
+2023-09-14 00:00:00,Shampoo,Personal Care,Store_3,33.0,22.0,11.0,10.0,Hot
+2023-05-04 00:00:00, shampoo ,Personal Care,Store_2,33.0,26.0,7.0,15.0,Autumn
+2023-07-29 00:00:00,Apple,Fruits,Store_1,34.0,25.0,9.0,22.0,Winter
+2023-05-19 00:00:00, apple ,Fruits,Store_1,24.0,20.0,4.0,27.0,Autumn
+2023-08-05 00:00:00,Soap,Personal Care,Store_2,29.0,21.0,8.0,20.0,Winter
+2023-06-02 00:00:00,Soap,Personal Care,Store_2,28.0,28.0,0.0,12.0,Winter
+2023-11-13 00:00:00,Orange,Fruits,Store_1,28.0,28.0,0.0,16.0,Rainy
+2023-07-22 00:00:00,Apple,Fruits,Store_3,35.0,29.0,6.0,28.0,Winter
+2023-06-03 00:00:00,Eggs,Dairy,Store_2,26.0,26.0,0.0,25.0,Winter
+2023-12-02 00:00:00,Chicken,Meat,Store_2,27.0,23.0,4.0,19.0,Rainy
+2023-08-26 00:00:00,Shampoo,Personal Care,Store_2,38.0,23.0,15.0,12.0,Winter
+2023-03-05 00:00:00, milk ,Dairy,Store_2,30.0,30.0,0.0,22.0,Autumn
+2023-01-02 00:00:00,Chicken,Meat,Store_3,23.0,23.0,0.0,19.0,Rainy
+2023-06-17 00:00:00,Eggs,Dairy,Store_3,21.0,21.0,0.0,26.0,Winter
+2023-03-18 00:00:00,Orange,Fruits,Store_1,27.0,27.0,0.0,29.0,Autumn
+2023-07-17 00:00:00, eggs ,Dairy,Store_3,30.0,30.0,0.0,21.0,Winter
+2023-05-10 00:00:00,Milk,Dairy,Store_1,23.0,23.0,0.0,23.0,Autumn
+2023-07-04 00:00:00,Orange,Fruits,Store_2,35.0,31.0,4.0,10.0,Winter
+2023-12-06 00:00:00,Rice,Grains,Store_1,32.0,23.0,9.0,29.0,Rainy
+2023-07-23 00:00:00,Orange,Fruits,Store_1,25.0,25.0,0.0,11.0,Winter
+2023-08-22 00:00:00,Orange,Fruits,Store_2,34.0,26.0,8.0,24.0,Winter
+2023-03-29 00:00:00, eggs ,Dairy,Store_3,33.0,25.0,8.0,17.0,Autumn
+2023-12-12 00:00:00,Orange,Fruits,Store_1,43.0,33.0,10.0,16.0,Rainy
+2023-01-06 00:00:00,Banana,Fruits,Store_2,31.0,31.0,0.0,17.0,Rainy
+2023-01-04 00:00:00,Shampoo,Personal Care,Store_3,22.0,22.0,0.0,14.0,Rainy
+2023-09-29 00:00:00,Chicken,Meat,Store_2,24.0,21.0,3.0,17.0,Hot
+2023-09-01 00:00:00,Shampoo,Personal Care,Store_2,23.0,23.0,0.0,10.0,Hot
+2023-10-22 00:00:00,Eggs,Dairy,Store_3,27.0,19.0,8.0,20.0,Hot
+2023-07-01 00:00:00,Milk,Dairy,Store_1,24.0,24.0,0.0,10.0,Winter
+2023-02-10 00:00:00,Bread,Bakery,Store_3,32.0,24.0,8.0,17.0,Rainy
+2023-06-22 00:00:00, rice ,Grains,Store_2,29.0,29.0,0.0,16.0,Winter
+2023-01-17 00:00:00,Eggs,Dairy,Store_3,30.0,18.0,12.0,26.0,Rainy
+2023-08-09 00:00:00, milk ,Dairy,Store_2,27.0,27.0,0.0,19.0,Winter
+2023-03-08 00:00:00,Milk,Dairy,Store_3,39.0,19.0,20.0,18.0,Autumn
+2023-03-03 00:00:00, apple ,Fruits,Store_2,37.0,24.0,13.0,25.0,Autumn
+2023-03-08 00:00:00,Milk,Dairy,Store_3,21.0,21.0,0.0,14.0,Autumn
+2023-12-28 00:00:00,Orange,Fruits,Store_3,33.0,29.0,4.0,22.0,Rainy
+2023-11-06 00:00:00,Shampoo,Personal Care,Store_3,33.0,21.0,12.0,26.0,Rainy
+2023-05-29 00:00:00,Shampoo,Personal Care,Store_2,26.0,25.0,1.0,27.0,Autumn
+2023-01-08 00:00:00,Banana,Fruits,Store_3,23.0,22.0,1.0,18.0,Rainy
+2023-02-06 00:00:00,Eggs,Dairy,Store_3,37.0,27.0,10.0,29.0,Rainy
+2023-02-24 00:00:00,Shampoo,Personal Care,Store_2,29.0,26.0,3.0,28.0,Rainy
+2023-03-27 00:00:00,Chicken,Meat,Store_1,30.0,21.0,9.0,12.0,Autumn
+2023-03-25 00:00:00,Apple,Fruits,Store_2,28.0,22.0,6.0,19.0,Autumn
+invalid_date,???,Unknown,Store_3,9999.0,-50.0,7777.0,,N/A
+2023-06-23 00:00:00,Rice,Grains,Store_2,32.0,29.0,3.0,19.0,Winter
+2023-12-27 00:00:00,Eggs,Dairy,Store_1,21.0,21.0,0.0,27.0,Rainy
+2023-10-04 00:00:00,Eggs,Dairy,Store_2,31.0,30.0,1.0,29.0,Hot
+2023-01-01 00:00:00,Rice,Grains,Store_1,30.0,30.0,0.0,23.0,Rainy
+2023-05-20 00:00:00,Orange,Fruits,Store_2,33.0,30.0,3.0,23.0,Autumn
+2023-10-31 00:00:00, rice ,Grains,Store_3,29.0,29.0,0.0,25.0,Hot
+2023-05-11 00:00:00, apple ,Fruits,Store_2,17.0,17.0,0.0,24.0,Autumn
+2023-04-29 00:00:00,Rice,Grains,Store_1,28.0,28.0,0.0,27.0,Autumn
+2023-08-12 00:00:00,Eggs,Dairy,Store_2,32.0,25.0,7.0,29.0,Winter
+2023-04-03 00:00:00,Eggs,Dairy,Store_3,30.0,30.0,0.0,10.0,Autumn
+2023-03-08 00:00:00,Apple,Fruits,Store_3,31.0,27.0,4.0,12.0,Autumn
+2023-08-21 00:00:00,Banana,Fruits,Store_1,34.0,31.0,3.0,29.0,Winter
+2023-06-25 00:00:00, milk ,Dairy,Store_3,20.0,20.0,0.0,28.0,Winter
+2023-12-02 00:00:00,Chicken,Meat,Store_2,31.0,28.0,3.0,12.0,Rainy
+2023-11-14 00:00:00,Eggs,Dairy,Store_3,23.0,23.0,0.0,28.0,Rainy
+2023-12-16 00:00:00,Shampoo,Personal Care,Store_2,28.0,22.0,6.0,19.0,Rainy
+2023-12-18 00:00:00,Soap,Personal Care,Store_1,23.0,23.0,0.0,27.0,Rainy
+2023-11-19 00:00:00,Soap,Personal Care,Store_3,18.0,18.0,0.0,10.0,Rainy
+2023-08-04 00:00:00,Apple,Fruits,Store_1,32.0,27.0,5.0,27.0,Winter
+2023-12-22 00:00:00,Chicken,Meat,Store_2,22.0,22.0,0.0,29.0,Rainy
+2023-12-27 00:00:00,Milk,Dairy,Store_2,36.0,26.0,10.0,11.0,Rainy
+2023-06-06 00:00:00, chicken ,Meat,Store_2,25.0,25.0,0.0,16.0,Winter
+2023-11-03 00:00:00,Chicken,Meat,Store_2,22.0,18.0,4.0,16.0,Rainy
+2023-07-04 00:00:00,Apple,Fruits,Store_2,21.0,21.0,0.0,11.0,Winter
+2023-12-30 00:00:00,Milk,Dairy,Store_2,43.0,25.0,18.0,29.0,Rainy
+2023-06-23 00:00:00, rice ,Grains,Store_1,37.0,27.0,10.0,16.0,Winter
+2023-07-09 00:00:00,Eggs,Dairy,Store_3,36.0,29.0,7.0,20.0,Winter
+2023-09-12 00:00:00,Soap,Personal Care,Store_1,25.0,25.0,0.0,19.0,Hot
+2023-02-20 00:00:00,Bread,Bakery,Store_2,22.0,22.0,0.0,23.0,Rainy
+2023-12-08 00:00:00,Bread,Bakery,Store_2,28.0,28.0,0.0,10.0,Rainy
+2023-02-09 00:00:00,Rice,Grains,Store_2,36.0,36.0,0.0,13.0,Rainy
+2023-07-09 00:00:00,Orange,Fruits,Store_3,28.0,21.0,7.0,11.0,Winter
+2023-02-22 00:00:00,Banana,Fruits,Store_1,28.0,28.0,0.0,17.0,Rainy
+2023-07-18 00:00:00,Chicken,Meat,Store_3,32.0,24.0,8.0,28.0,Winter
+2023-05-19 00:00:00,Soap,Personal Care,Store_3,25.0,22.0,3.0,18.0,Autumn
+2023-05-01 00:00:00,Rice,Grains,Store_2,25.0,25.0,0.0,14.0,Autumn
+2023-10-26 00:00:00,Chicken,Meat,Store_1,26.0,26.0,0.0,22.0,Hot
+2023-12-26 00:00:00,Eggs,Dairy,Store_2,33.0,19.0,14.0,16.0,Rainy
+2023-05-17 00:00:00,Shampoo,Personal Care,Store_3,24.0,24.0,0.0,16.0,Autumn
+2023-07-11 00:00:00,Eggs,Dairy,Store_3,27.0,27.0,0.0,25.0,Winter
+2023-04-09 00:00:00,Shampoo,Personal Care,Store_2,20.0,20.0,0.0,17.0,Autumn
+2023-03-21 00:00:00, apple ,Fruits,Store_2,32.0,32.0,0.0,13.0,Autumn
+2023-11-22 00:00:00,Apple,Fruits,Store_1,28.0,28.0,0.0,20.0,Rainy
+2023-12-19 00:00:00,Soap,Personal Care,Store_3,32.0,18.0,14.0,17.0,Rainy
+2023-02-11 00:00:00,Bread,Bakery,Store_3,39.0,21.0,18.0,15.0,Rainy
+2023-03-30 00:00:00,Milk,Dairy,Store_1,25.0,25.0,0.0,13.0,Autumn
+2023-10-06 00:00:00,Banana,Fruits,Store_2,33.0,24.0,9.0,28.0,Hot
+2023-01-06 00:00:00,Apple,Fruits,Store_1,,,,29.0,Rainy
+2023-07-08 00:00:00,Banana,Fruits,Store_1,32.0,28.0,4.0,28.0,Winter
+2023-10-01 00:00:00, shampoo ,Personal Care,Store_1,25.0,25.0,0.0,18.0,Hot
+2023-03-24 00:00:00,Eggs,Dairy,Store_1,26.0,26.0,0.0,24.0,Autumn
+2023-02-15 00:00:00,Soap,Personal Care,Store_3,34.0,24.0,10.0,22.0,Rainy
+2023-09-20 00:00:00,Orange,Fruits,Store_3,30.0,30.0,0.0,17.0,Hot
+2023-06-03 00:00:00,Soap,Personal Care,Store_2,35.0,20.0,15.0,21.0,Winter
+2023-12-29 00:00:00, banana ,Fruits,Store_2,27.0,27.0,0.0,19.0,Rainy
+invalid_date,,Unknown,Store_2,9999.0,,,,N/A
+2023-10-22 00:00:00,Shampoo,Personal Care,Store_2,30.0,17.0,13.0,24.0,Hot
+2023-11-25 00:00:00,Banana,Fruits,Store_2,32.0,27.0,5.0,26.0,Rainy
+2023-09-07 00:00:00,Milk,Dairy,Store_3,30.0,26.0,4.0,10.0,Hot
+2023-04-12 00:00:00,Apple,Fruits,Store_1,34.0,28.0,6.0,20.0,Autumn
+2023-06-11 00:00:00,Chicken,Meat,Store_3,25.0,16.0,9.0,14.0,Winter
+2023-01-03 00:00:00,Soap,Personal Care,Store_2,31.0,26.0,5.0,27.0,Rainy
+2023-03-03 00:00:00,Banana,Fruits,Store_1,24.0,24.0,0.0,23.0,Autumn
+2023-01-10 00:00:00,Rice,Grains,Store_1,31.0,31.0,0.0,28.0,Rainy
+2023-10-11 00:00:00,Banana,Fruits,Store_3,33.0,33.0,0.0,20.0,Hot
+2023-02-13 00:00:00,Soap,Personal Care,Store_1,29.0,24.0,5.0,17.0,Rainy
+2023-12-25 00:00:00,Orange,Fruits,Store_2,30.0,28.0,2.0,25.0,Rainy
+invalid_date,,Unknown,Store_1,-100.0,,-20.0,999.0,N/A
+2023-02-25 00:00:00,Eggs,Dairy,Store_2,33.0,33.0,0.0,24.0,Rainy
+2023-09-11 00:00:00,Shampoo,Personal Care,Store_1,27.0,22.0,5.0,16.0,Hot
+2023-06-16 00:00:00, chicken ,Meat,Store_1,32.0,17.0,15.0,27.0,Winter
+2023-11-22 00:00:00,Banana,Fruits,Store_2,34.0,34.0,0.0,23.0,Rainy
+2023-01-29 00:00:00,Soap,Personal Care,Store_1,29.0,18.0,11.0,14.0,Rainy
+2023-10-04 00:00:00, banana ,Fruits,Store_2,31.0,31.0,0.0,24.0,Hot
+2023-06-27 00:00:00,Soap,Personal Care,Store_3,25.0,25.0,0.0,11.0,Winter
+2023-05-08 00:00:00, orange ,Fruits,Store_2,33.0,30.0,3.0,17.0,Autumn
+2023-08-26 00:00:00,Bread,Bakery,Store_2,30.0,24.0,6.0,19.0,Winter
+2023-02-24 00:00:00,Chicken,Meat,Store_3,21.0,19.0,2.0,14.0,Rainy
+2023-09-15 00:00:00,Bread,Bakery,Store_1,27.0,22.0,5.0,14.0,Hot
+2023-03-20 00:00:00,Eggs,Dairy,Store_3,35.0,27.0,8.0,25.0,Autumn
+2023-01-11 00:00:00,Milk,Dairy,Store_3,32.0,22.0,10.0,26.0,Rainy
+2023-09-03 00:00:00,Apple,Fruits,Store_2,21.0,21.0,0.0,22.0,Hot
+2023-02-24 00:00:00,Rice,Grains,Store_1,36.0,21.0,15.0,21.0,Rainy
+2023-06-21 00:00:00,Bread,Bakery,Store_1,36.0,30.0,6.0,20.0,Winter
+2023-09-14 00:00:00,Chicken,Meat,Store_1,28.0,28.0,0.0,14.0,Hot
+2023-10-07 00:00:00,Apple,Fruits,Store_3,36.0,34.0,2.0,13.0,Hot
+2023-09-11 00:00:00,Soap,Personal Care,Store_3,27.0,24.0,3.0,17.0,Hot
+2023-05-03 00:00:00, orange ,Fruits,Store_2,29.0,29.0,0.0,24.0,Autumn
+2023-05-09 00:00:00,Banana,Fruits,Store_2,31.0,25.0,6.0,22.0,Autumn
+2023-06-18 00:00:00,Rice,Grains,Store_1,29.0,24.0,5.0,23.0,Winter
+2023-02-08 00:00:00,Shampoo,Personal Care,Store_1,29.0,10.0,19.0,17.0,Rainy
+2023-04-17 00:00:00,Milk,Dairy,Store_2,30.0,18.0,12.0,25.0,Autumn
+2023-07-28 00:00:00,Rice,Grains,Store_2,36.0,32.0,4.0,15.0,Winter
+2023-05-16 00:00:00,Chicken,Meat,Store_2,33.0,20.0,13.0,26.0,Autumn
+2023-08-04 00:00:00,Rice,Grains,Store_1,45.0,34.0,11.0,20.0,Winter
+2023-08-21 00:00:00, orange ,Fruits,Store_2,35.0,29.0,6.0,13.0,Winter
+2023-07-21 00:00:00,Apple,Fruits,Store_3,29.0,21.0,8.0,18.0,Winter
+2023-06-20 00:00:00, soap ,Personal Care,Store_1,30.0,30.0,0.0,15.0,Winter
+2023-04-02 00:00:00,Bread,Bakery,Store_3,28.0,20.0,8.0,15.0,Autumn
+2023-08-28 00:00:00,Soap,Personal Care,Store_2,30.0,30.0,0.0,18.0,Winter
+2023-10-24 00:00:00,Shampoo,Personal Care,Store_3,38.0,23.0,15.0,11.0,Hot
+2023-08-31 00:00:00,Shampoo,Personal Care,Store_2,24.0,24.0,0.0,13.0,Winter
+2023-11-15 00:00:00,Orange,Fruits,Store_3,21.0,21.0,0.0,23.0,Rainy
+2023-03-25 00:00:00,Rice,Grains,Store_3,19.0,19.0,0.0,12.0,Autumn
+2023-01-19 00:00:00, chicken ,Meat,Store_3,35.0,15.0,20.0,18.0,Rainy
+2023-12-27 00:00:00,Bread,Bakery,Store_1,34.0,21.0,13.0,16.0,Rainy
+2023-01-20 00:00:00,Soap,Personal Care,Store_3,30.0,20.0,10.0,21.0,Rainy
+2023-12-15 00:00:00,Milk,Dairy,Store_1,26.0,20.0,6.0,15.0,Rainy
+2023-01-09 00:00:00,Soap,Personal Care,Store_2,32.0,25.0,7.0,13.0,Rainy
+2023-05-26 00:00:00, bread ,Bakery,Store_1,32.0,26.0,6.0,10.0,Autumn
+2023-01-29 00:00:00,Chicken,Meat,Store_3,48.0,30.0,18.0,15.0,Rainy
+2023-04-10 00:00:00,Bread,Bakery,Store_2,32.0,22.0,10.0,11.0,Autumn
+2023-10-16 00:00:00,Soap,Personal Care,Store_2,33.0,29.0,4.0,26.0,Hot
+2023-11-03 00:00:00,Shampoo,Personal Care,Store_3,29.0,27.0,2.0,15.0,Rainy
+2023-09-28 00:00:00,Orange,Fruits,Store_1,29.0,29.0,0.0,13.0,Hot
+2023-10-20 00:00:00,Milk,Dairy,Store_2,24.0,22.0,2.0,19.0,Hot
+2023-07-20 00:00:00,Chicken,Meat,Store_1,32.0,23.0,9.0,13.0,Winter
+2023-12-21 00:00:00,Bread,Bakery,Store_1,29.0,26.0,3.0,23.0,Rainy
+2023-04-12 00:00:00, eggs ,Dairy,Store_3,30.0,30.0,0.0,18.0,Autumn
+2023-09-23 00:00:00,Shampoo,Personal Care,Store_1,32.0,28.0,4.0,11.0,Hot
+2023-06-22 00:00:00,Soap,Personal Care,Store_3,31.0,17.0,14.0,21.0,Winter
+2023-01-17 00:00:00,Shampoo,Personal Care,Store_2,25.0,25.0,0.0,28.0,Rainy
+2023-03-01 00:00:00,Orange,Fruits,Store_1,39.0,17.0,22.0,21.0,Autumn
+2023-03-31 00:00:00,Chicken,Meat,Store_2,29.0,21.0,8.0,11.0,Autumn
+2023-10-08 00:00:00, banana ,Fruits,Store_2,24.0,24.0,0.0,25.0,Hot
+2023-07-19 00:00:00, bread ,Bakery,Store_2,24.0,24.0,0.0,26.0,Winter
+2023-12-12 00:00:00,Shampoo,Personal Care,Store_1,24.0,20.0,4.0,29.0,Rainy
+2023-05-22 00:00:00,Banana,Fruits,Store_2,26.0,13.0,13.0,24.0,Autumn
+2023-05-01 00:00:00,Soap,Personal Care,Store_3,31.0,27.0,4.0,28.0,Autumn
+2023-06-19 00:00:00, orange ,Fruits,Store_1,28.0,28.0,0.0,21.0,Winter
+2023-03-14 00:00:00,Shampoo,Personal Care,Store_1,33.0,32.0,1.0,16.0,Autumn
+2023-03-10 00:00:00,Banana,Fruits,Store_3,27.0,27.0,0.0,27.0,Autumn
+2023-08-01 00:00:00,Eggs,Dairy,Store_2,32.0,31.0,1.0,16.0,Winter
+2023-01-06 00:00:00,Shampoo,Personal Care,Store_1,33.0,30.0,3.0,16.0,Rainy
+2023-03-03 00:00:00,Soap,Personal Care,Store_2,18.0,18.0,0.0,25.0,Autumn
+2023-12-28 00:00:00,Banana,Fruits,Store_3,24.0,24.0,0.0,27.0,Rainy
+2023-05-07 00:00:00,Rice,Grains,Store_2,32.0,31.0,1.0,29.0,Autumn
+2023-12-23 00:00:00,Soap,Personal Care,Store_2,31.0,27.0,4.0,17.0,Rainy
+2023-10-23 00:00:00,Rice,Grains,Store_3,36.0,27.0,9.0,19.0,Hot
+2023-03-28 00:00:00,Soap,Personal Care,Store_3,42.0,25.0,17.0,11.0,Autumn
+2023-05-15 00:00:00,Soap,Personal Care,Store_2,31.0,29.0,2.0,20.0,Autumn
+2023-11-09 00:00:00,Apple,Fruits,Store_1,24.0,24.0,0.0,16.0,Rainy
+2023-03-04 00:00:00,Bread,Bakery,Store_3,36.0,20.0,16.0,24.0,Autumn
+2023-09-17 00:00:00,Shampoo,Personal Care,Store_2,32.0,31.0,1.0,18.0,Hot
+2023-07-17 00:00:00,Milk,Dairy,Store_1,26.0,21.0,5.0,29.0,Winter
+2023-12-04 00:00:00,Soap,Personal Care,Store_2,34.0,23.0,11.0,27.0,Rainy
+2023-02-20 00:00:00,Eggs,Dairy,Store_3,33.0,22.0,11.0,26.0,Rainy
+2023-03-18 00:00:00,Milk,Dairy,Store_1,27.0,21.0,6.0,26.0,Autumn
+2023-06-16 00:00:00,Shampoo,Personal Care,Store_1,23.0,23.0,0.0,23.0,Winter
+2023-01-13 00:00:00,Orange,Fruits,Store_1,34.0,34.0,0.0,19.0,Rainy
+2023-12-14 00:00:00,Shampoo,Personal Care,Store_2,28.0,26.0,2.0,22.0,Rainy
+2023-07-25 00:00:00,Eggs,Dairy,Store_3,28.0,28.0,0.0,11.0,Winter
+2023-08-25 00:00:00,Chicken,Meat,Store_2,30.0,13.0,17.0,21.0,Winter
+2023-03-03 00:00:00,Milk,Dairy,Store_2,28.0,20.0,8.0,16.0,Autumn
+2023-05-27 00:00:00, milk ,Dairy,Store_1,35.0,27.0,8.0,28.0,Autumn
+2023-11-11 00:00:00,Soap,Personal Care,Store_3,31.0,29.0,2.0,19.0,Rainy
+2023-05-13 00:00:00, orange ,Fruits,Store_2,31.0,20.0,11.0,10.0,Autumn
+2023-07-10 00:00:00,Orange,Fruits,Store_3,20.0,19.0,1.0,13.0,Winter
+2023-03-26 00:00:00,Banana,Fruits,Store_2,25.0,24.0,1.0,19.0,Autumn
+2023-12-28 00:00:00,Soap,Personal Care,Store_2,42.0,24.0,18.0,18.0,Rainy
+2023-05-14 00:00:00,Rice,Grains,Store_1,32.0,30.0,2.0,19.0,Autumn
+2023-05-09 00:00:00,Banana,Fruits,Store_2,22.0,22.0,0.0,19.0,Autumn
+2023-08-21 00:00:00,Orange,Fruits,Store_2,23.0,23.0,0.0,21.0,Winter
+2023-09-02 00:00:00,Soap,Personal Care,Store_1,23.0,23.0,0.0,14.0,Hot
+2023-04-07 00:00:00,Soap,Personal Care,Store_2,28.0,20.0,8.0,12.0,Autumn
+2023-10-28 00:00:00,Orange,Fruits,Store_2,27.0,27.0,0.0,23.0,Hot
+2023-05-09 00:00:00,Eggs,Dairy,Store_3,33.0,33.0,0.0,13.0,Autumn
+2023-10-19 00:00:00,Milk,Dairy,Store_1,34.0,25.0,9.0,25.0,Hot
+2023-08-21 00:00:00, orange ,Fruits,Store_1,38.0,25.0,13.0,17.0,Winter
+2023-04-27 00:00:00,Banana,Fruits,Store_1,34.0,24.0,10.0,14.0,Autumn
+2023-02-16 00:00:00,Banana,Fruits,Store_1,22.0,22.0,0.0,12.0,Rainy
+2023-01-29 00:00:00,Banana,Fruits,Store_2,31.0,29.0,2.0,28.0,Rainy
+2023-08-11 00:00:00,Eggs,Dairy,Store_1,32.0,21.0,11.0,10.0,Winter
+2023-11-01 00:00:00,Orange,Fruits,Store_2,46.0,33.0,13.0,24.0,Rainy
+2023-08-29 00:00:00,Milk,Dairy,Store_2,25.0,24.0,1.0,22.0,Winter
+2023-03-17 00:00:00,Milk,Dairy,Store_3,40.0,25.0,15.0,19.0,Autumn
+2023-07-03 00:00:00,Orange,Fruits,Store_3,29.0,22.0,7.0,10.0,Winter
+2023-09-09 00:00:00,Eggs,Dairy,Store_3,33.0,33.0,0.0,22.0,Hot
+invalid_date,???,Unknown,Store_1,-100.0,-50.0,-20.0,,N/A
+2023-07-15 00:00:00,Banana,Fruits,Store_2,27.0,27.0,0.0,11.0,Winter
+2023-11-07 00:00:00,Orange,Fruits,Store_3,38.0,38.0,0.0,29.0,Rainy
+2023-12-07 00:00:00,Bread,Bakery,Store_2,32.0,28.0,4.0,27.0,Rainy
+2023-12-30 00:00:00, bread ,Bakery,Store_2,30.0,30.0,0.0,27.0,Rainy
+2023-10-27 00:00:00, soap ,Personal Care,Store_2,37.0,27.0,10.0,25.0,Hot
+2023-07-10 00:00:00,Shampoo,Personal Care,Store_2,29.0,29.0,0.0,21.0,Winter
+2023-02-05 00:00:00,Soap,Personal Care,Store_1,28.0,26.0,2.0,14.0,Rainy
+2023-05-30 00:00:00,Chicken,Meat,Store_1,35.0,30.0,5.0,20.0,Autumn
+2023-08-15 00:00:00,Orange,Fruits,Store_2,26.0,26.0,0.0,28.0,Winter
+2023-02-04 00:00:00, milk ,Dairy,Store_3,25.0,25.0,0.0,15.0,Rainy
+2023-11-03 00:00:00,Banana,Fruits,Store_3,29.0,25.0,4.0,26.0,Rainy
+2023-07-05 00:00:00,Shampoo,Personal Care,Store_1,32.0,21.0,11.0,18.0,Winter
+2023-07-22 00:00:00,Milk,,Store_3,37.0,27.0,10.0,27.0,Winter
+2023-12-09 00:00:00,Rice,Grains,Store_3,31.0,25.0,6.0,23.0,Rainy
+2023-07-02 00:00:00,Shampoo,Personal Care,Store_1,29.0,16.0,13.0,25.0,Winter
+2023-08-10 00:00:00,Milk,Dairy,Store_3,25.0,25.0,0.0,29.0,Winter
+2023-11-20 00:00:00,Rice,Grains,Store_1,27.0,17.0,10.0,15.0,Rainy
+2023-06-03 00:00:00,Soap,Personal Care,Store_2,34.0,22.0,12.0,11.0,Winter
+2023-10-22 00:00:00,Rice,Grains,Store_2,35.0,30.0,5.0,28.0,Hot
+2023-03-11 00:00:00,Soap,Personal Care,Store_1,34.0,34.0,0.0,12.0,Autumn
+2023-11-12 00:00:00,Chicken,Meat,Store_3,35.0,25.0,10.0,18.0,Rainy
+2023-08-25 00:00:00,Shampoo,Personal Care,Store_1,37.0,27.0,10.0,18.0,Winter
+2023-11-02 00:00:00,Shampoo,Personal Care,Store_2,32.0,26.0,6.0,28.0,Rainy
+2023-10-26 00:00:00,Soap,Personal Care,Store_3,31.0,26.0,5.0,20.0,Hot
+2023-10-05 00:00:00,Bread,Bakery,Store_1,28.0,28.0,0.0,18.0,Hot
+2023-12-13 00:00:00,Orange,Fruits,Store_3,32.0,32.0,0.0,11.0,Rainy
+2023-01-07 00:00:00,Rice,Grains,Store_2,29.0,25.0,4.0,29.0,Rainy
+2023-01-25 00:00:00,Bread,Bakery,Store_2,32.0,17.0,15.0,22.0,Rainy
+2023-07-17 00:00:00,Apple,Fruits,Store_3,34.0,16.0,18.0,19.0,Winter
+2023-05-30 00:00:00,Banana,Fruits,Store_3,29.0,26.0,3.0,21.0,Autumn
+2023-04-14 00:00:00, milk ,Dairy,Store_1,33.0,27.0,6.0,18.0,Autumn
+2023-05-14 00:00:00,Milk,Dairy,Store_2,36.0,23.0,13.0,14.0,Autumn
+2023-05-27 00:00:00,Milk,Dairy,Store_1,20.0,20.0,0.0,14.0,Autumn
+2023-04-23 00:00:00,Eggs,Dairy,Store_2,43.0,21.0,22.0,10.0,Autumn
+2023-10-12 00:00:00,Chicken,Meat,Store_3,32.0,32.0,0.0,20.0,Hot
+2023-03-12 00:00:00,Bread,Bakery,Store_1,33.0,25.0,8.0,21.0,Autumn
+invalid_date,,Unknown,Store_2,9999.0,,7777.0,999.0,N/A
+2023-09-25 00:00:00,Chicken,Meat,Store_1,31.0,24.0,7.0,11.0,Hot
+2023-10-25 00:00:00, rice ,Grains,Store_1,23.0,23.0,0.0,18.0,Hot
+2023-08-06 00:00:00,Banana,Fruits,Store_1,35.0,24.0,11.0,10.0,Winter
+2023-08-15 00:00:00,Orange,Fruits,Store_2,29.0,27.0,2.0,28.0,Winter
+2023-03-01 00:00:00,Shampoo,Personal Care,Store_3,33.0,26.0,7.0,27.0,Autumn
+2023-05-11 00:00:00,Shampoo,Personal Care,Store_3,35.0,23.0,12.0,15.0,Autumn
+2023-09-25 00:00:00,Rice,Grains,Store_3,30.0,30.0,0.0,12.0,Hot
+2023-02-03 00:00:00,Soap,Personal Care,Store_3,22.0,22.0,0.0,29.0,Rainy
+2023-03-25 00:00:00,Rice,Grains,Store_2,17.0,17.0,0.0,18.0,Autumn
+2023-08-22 00:00:00,Apple,Fruits,Store_3,33.0,27.0,6.0,22.0,Winter
+2023-11-07 00:00:00,Rice,Grains,Store_2,27.0,25.0,2.0,28.0,Rainy
+2023-04-13 00:00:00,Bread,Bakery,Store_2,33.0,23.0,10.0,27.0,Autumn
+2023-03-16 00:00:00,Eggs,Dairy,Store_3,32.0,31.0,1.0,29.0,Autumn
+2023-04-06 00:00:00,Milk,Dairy,Store_1,31.0,26.0,5.0,17.0,Autumn
+2023-07-26 00:00:00,Bread,Bakery,Store_1,40.0,37.0,3.0,11.0,Winter
+2023-05-11 00:00:00,Rice,Grains,Store_2,24.0,22.0,2.0,26.0,Autumn
+2023-04-15 00:00:00,Chicken,Meat,Store_2,27.0,27.0,0.0,14.0,Autumn
+2023-06-20 00:00:00,Eggs,Dairy,Store_1,37.0,22.0,15.0,11.0,Winter
+2023-04-13 00:00:00,Banana,Fruits,Store_1,42.0,26.0,16.0,20.0,Autumn
+2023-05-08 00:00:00,Shampoo,Personal Care,Store_1,21.0,21.0,0.0,15.0,Autumn
+2023-06-21 00:00:00,Apple,Fruits,Store_2,26.0,22.0,4.0,24.0,Winter
+2023-11-30 00:00:00,Milk,Dairy,Store_2,29.0,23.0,6.0,28.0,Rainy
+2023-10-26 00:00:00,Chicken,Meat,Store_1,32.0,18.0,14.0,26.0,Hot
+2023-01-17 00:00:00,Banana,Fruits,Store_1,34.0,34.0,0.0,28.0,Rainy
+2023-06-30 00:00:00,Orange,Fruits,Store_2,28.0,21.0,7.0,12.0,Winter
+2023-03-28 00:00:00,Rice,Grains,Store_3,36.0,16.0,20.0,14.0,Autumn
+2023-02-21 00:00:00, milk ,Dairy,Store_2,28.0,28.0,0.0,12.0,Rainy
+2023-12-09 00:00:00,Shampoo,Personal Care,Store_1,35.0,26.0,9.0,25.0,Rainy
+2023-12-03 00:00:00,Rice,Grains,Store_3,39.0,17.0,22.0,21.0,Rainy
+2023-03-18 00:00:00,Milk,Dairy,Store_3,30.0,30.0,0.0,15.0,Autumn
+2023-06-04 00:00:00,Shampoo,Personal Care,Store_2,34.0,23.0,11.0,21.0,Winter
+2023-04-06 00:00:00,Chicken,Meat,Store_2,36.0,13.0,23.0,20.0,Autumn
+2023-01-01 00:00:00,Apple,Fruits,Store_3,33.0,33.0,0.0,26.0,Rainy
+2023-05-14 00:00:00,Eggs,Dairy,Store_3,33.0,33.0,0.0,23.0,Autumn
+2023-03-25 00:00:00,Milk,Dairy,Store_3,33.0,19.0,14.0,11.0,Autumn
+2023-02-14 00:00:00,Eggs,Dairy,Store_3,20.0,20.0,0.0,22.0,Rainy
+2023-06-20 00:00:00,Milk,Dairy,Store_1,34.0,26.0,8.0,22.0,Winter
+2023-01-23 00:00:00,Soap,Personal Care,Store_1,25.0,25.0,0.0,24.0,Rainy
+2023-03-15 00:00:00,Milk,Dairy,Store_2,30.0,22.0,8.0,11.0,Autumn
+2023-05-22 00:00:00,Milk,Dairy,Store_1,25.0,18.0,7.0,22.0,Autumn
+2023-10-18 00:00:00,Shampoo,Personal Care,Store_2,25.0,25.0,0.0,17.0,Hot
+2023-05-24 00:00:00,Soap,Personal Care,Store_2,27.0,27.0,0.0,17.0,Autumn
+2023-03-13 00:00:00,Chicken,Meat,Store_1,20.0,20.0,0.0,14.0,Autumn
+invalid_date,,Unknown,Store_3,,-50.0,7777.0,999.0,N/A
+2023-07-30 00:00:00,Eggs,Dairy,Store_2,22.0,22.0,0.0,16.0,Winter
+2023-10-05 00:00:00,Milk,Dairy,Store_1,29.0,25.0,4.0,15.0,Hot
+2023-09-27 00:00:00,Eggs,Dairy,Store_1,39.0,21.0,18.0,18.0,Hot
+2023-09-27 00:00:00,Soap,Personal Care,Store_2,37.0,32.0,5.0,11.0,Hot
+2023-09-28 00:00:00,Banana,Fruits,Store_1,26.0,26.0,0.0,28.0,Hot
+2023-09-28 00:00:00,Orange,Fruits,Store_1,30.0,30.0,0.0,14.0,Hot
+2023-03-08 00:00:00,Chicken,Meat,Store_1,31.0,22.0,9.0,15.0,Autumn
+2023-03-16 00:00:00, bread ,Bakery,Store_3,27.0,27.0,0.0,18.0,Autumn
+2023-11-20 00:00:00,Orange,Fruits,Store_1,35.0,28.0,7.0,17.0,Rainy
+2023-09-15 00:00:00,Banana,Fruits,Store_2,28.0,28.0,0.0,14.0,Hot
+2023-05-11 00:00:00,Banana,Fruits,Store_2,24.0,24.0,0.0,28.0,Autumn
+2023-02-11 00:00:00,Milk,Dairy,Store_1,30.0,26.0,4.0,29.0,Rainy
+2023-08-06 00:00:00,Milk,Dairy,Store_3,26.0,26.0,0.0,29.0,Winter
+2023-05-12 00:00:00, rice ,Grains,Store_3,35.0,26.0,9.0,21.0,Autumn
+2023-01-06 00:00:00,Banana,Fruits,Store_3,45.0,32.0,13.0,10.0,Rainy
+2023-01-30 00:00:00,Chicken,Meat,Store_2,36.0,22.0,14.0,21.0,Rainy
+2023-01-06 00:00:00,Banana,Fruits,Store_1,36.0,36.0,0.0,16.0,Rainy
+2023-03-04 00:00:00,Soap,,Store_1,24.0,13.0,11.0,11.0,Autumn
+2023-05-26 00:00:00,Banana,Fruits,Store_2,28.0,23.0,5.0,27.0,Autumn
+2023-07-17 00:00:00,Soap,Personal Care,Store_2,30.0,29.0,1.0,26.0,Winter
+2023-04-18 00:00:00,Rice,Grains,Store_3,31.0,25.0,6.0,18.0,Autumn
+2023-01-10 00:00:00,Rice,Grains,Store_1,41.0,28.0,13.0,19.0,Rainy
+2023-11-10 00:00:00,Soap,Personal Care,Store_1,34.0,18.0,16.0,23.0,Rainy
+2023-04-19 00:00:00,Milk,Dairy,Store_2,28.0,24.0,4.0,15.0,Autumn
+2023-02-21 00:00:00,Banana,Fruits,Store_1,22.0,22.0,0.0,18.0,Rainy
+2023-08-02 00:00:00,Shampoo,Personal Care,Store_2,35.0,30.0,5.0,12.0,Winter
+2023-07-14 00:00:00,Rice,Grains,Store_2,27.0,26.0,1.0,26.0,Winter
+2023-01-22 00:00:00,Soap,Personal Care,Store_3,21.0,21.0,0.0,18.0,Rainy
+2023-05-09 00:00:00,Apple,Fruits,Store_1,28.0,25.0,3.0,14.0,Autumn
+2023-03-22 00:00:00, banana ,Fruits,Store_1,35.0,34.0,1.0,15.0,Autumn
+2023-12-08 00:00:00,Apple,Fruits,Store_2,33.0,29.0,4.0,25.0,Rainy
+2023-02-13 00:00:00, orange ,Fruits,Store_3,28.0,28.0,0.0,20.0,Rainy
+2023-07-19 00:00:00,Rice,Grains,Store_2,36.0,31.0,5.0,29.0,Winter
+2023-12-08 00:00:00, chicken ,Meat,Store_2,22.0,22.0,0.0,18.0,Rainy
+2023-12-17 00:00:00,Soap,Personal Care,Store_3,30.0,30.0,0.0,24.0,Rainy
+2023-07-28 00:00:00,Chicken,Meat,Store_2,34.0,20.0,14.0,29.0,Winter
+2023-11-20 00:00:00,Banana,Fruits,Store_1,29.0,29.0,0.0,20.0,Rainy
+2023-03-29 00:00:00,Rice,Grains,Store_3,25.0,25.0,0.0,,Autumn
+2023-10-19 00:00:00,Banana,Fruits,Store_2,40.0,36.0,4.0,12.0,Hot
+2023-04-19 00:00:00,Shampoo,Personal Care,Store_3,34.0,27.0,7.0,18.0,Autumn
+2023-03-18 00:00:00,Apple,Fruits,Store_3,31.0,30.0,1.0,24.0,Autumn
+2023-12-16 00:00:00,Orange,Fruits,Store_1,32.0,32.0,0.0,19.0,Rainy
+2023-07-02 00:00:00,Chicken,Meat,Store_3,30.0,26.0,4.0,20.0,Winter
+2023-05-10 00:00:00,Chicken,Meat,Store_2,20.0,20.0,0.0,29.0,Autumn
+2023-11-29 00:00:00,Rice,Grains,Store_3,30.0,27.0,3.0,15.0,Rainy
+2023-07-18 00:00:00, apple ,Fruits,Store_3,37.0,31.0,6.0,26.0,Winter
+2023-01-09 00:00:00,Banana,Fruits,Store_2,27.0,27.0,0.0,10.0,Rainy
+2023-12-18 00:00:00,Orange,Fruits,Store_1,30.0,30.0,0.0,19.0,Rainy
+2023-05-08 00:00:00,Banana,Fruits,Store_2,35.0,18.0,17.0,25.0,Autumn
+2023-10-08 00:00:00,Shampoo,Personal Care,Store_3,29.0,29.0,0.0,18.0,Hot
+2023-11-22 00:00:00,Bread,Bakery,Store_3,32.0,32.0,0.0,14.0,Rainy
+2023-12-05 00:00:00,Chicken,Meat,Store_1,29.0,29.0,0.0,14.0,Rainy
+2023-07-27 00:00:00,Bread,Bakery,Store_3,31.0,27.0,4.0,10.0,Winter
+2023-07-09 00:00:00, orange ,Fruits,Store_3,26.0,26.0,0.0,26.0,Winter
+2023-10-24 00:00:00, soap ,Personal Care,Store_2,32.0,29.0,3.0,15.0,Hot
+2023-09-14 00:00:00,Bread,Bakery,Store_2,27.0,27.0,0.0,12.0,Hot
+2023-01-21 00:00:00,Orange,Fruits,Store_1,29.0,28.0,1.0,12.0,Rainy
+2023-11-05 00:00:00,Banana,Fruits,Store_3,25.0,25.0,0.0,20.0,Rainy
+2023-07-04 00:00:00,Rice,Grains,Store_3,35.0,27.0,8.0,14.0,Winter
+2023-04-09 00:00:00,Milk,Dairy,Store_3,31.0,23.0,8.0,13.0,Autumn
+2023-05-01 00:00:00,Orange,Fruits,Store_2,46.0,23.0,23.0,15.0,Autumn
+2023-01-08 00:00:00, bread ,Bakery,Store_1,46.0,28.0,18.0,13.0,Rainy
+2023-11-18 00:00:00,Banana,Fruits,Store_2,41.0,34.0,7.0,15.0,Rainy
+2023-08-01 00:00:00, rice ,Grains,Store_2,41.0,38.0,3.0,13.0,Winter
+2023-01-06 00:00:00,Chicken,Meat,Store_1,30.0,27.0,3.0,16.0,Rainy
+2023-02-07 00:00:00,Soap,Personal Care,Store_3,22.0,22.0,0.0,21.0,Rainy
+2023-12-14 00:00:00,Soap,Personal Care,Store_2,37.0,18.0,19.0,26.0,Rainy
+2023-03-21 00:00:00,Orange,Fruits,Store_2,30.0,24.0,6.0,16.0,Autumn
+2023-01-18 00:00:00,Eggs,Dairy,Store_1,24.0,24.0,0.0,12.0,Rainy
+2023-09-24 00:00:00,Orange,Fruits,Store_3,34.0,34.0,0.0,22.0,Hot
+2023-02-06 00:00:00,Soap,Personal Care,Store_3,28.0,22.0,6.0,28.0,Rainy
+2023-07-11 00:00:00,Eggs,Dairy,Store_2,42.0,24.0,18.0,25.0,Winter
+2023-03-20 00:00:00,Rice,Grains,Store_3,35.0,31.0,4.0,17.0,Autumn
+2023-12-13 00:00:00,Soap,Personal Care,Store_3,22.0,22.0,0.0,18.0,Rainy
+2023-02-28 00:00:00,Orange,Fruits,Store_3,37.0,37.0,0.0,10.0,Rainy
+2023-08-21 00:00:00,Milk,Dairy,Store_3,34.0,21.0,13.0,28.0,Winter
+2023-02-26 00:00:00,Banana,Fruits,Store_3,33.0,33.0,0.0,16.0,Rainy
+2023-02-24 00:00:00,Soap,Personal Care,Store_3,31.0,27.0,4.0,18.0,Rainy
+2023-01-31 00:00:00,Banana,Fruits,Store_1,37.0,37.0,0.0,22.0,Rainy
+2023-02-16 00:00:00,Eggs,Dairy,Store_2,27.0,24.0,3.0,16.0,Rainy
+2023-03-05 00:00:00, eggs ,Dairy,Store_3,23.0,23.0,0.0,12.0,Autumn
+2023-08-27 00:00:00,Bread,Bakery,Store_3,33.0,29.0,4.0,11.0,Winter
+2023-05-23 00:00:00,,Dairy,Store_3,24.0,24.0,0.0,22.0,Autumn
+2023-08-25 00:00:00,Chicken,Meat,Store_2,27.0,24.0,3.0,22.0,Winter
+invalid_date,???,Unknown,Store_3,-100.0,-50.0,-20.0,,N/A
+2023-03-10 00:00:00,Apple,Fruits,Store_1,26.0,22.0,4.0,29.0,Autumn
+2023-10-27 00:00:00, chicken ,Meat,Store_3,23.0,23.0,0.0,24.0,Hot
+2023-01-09 00:00:00,Chicken,Meat,Store_3,25.0,25.0,0.0,12.0,Rainy
+2023-11-14 00:00:00,Bread,Bakery,Store_3,27.0,27.0,0.0,16.0,Rainy
+2023-05-31 00:00:00,Bread,Bakery,Store_1,27.0,15.0,12.0,27.0,Autumn
+2023-05-25 00:00:00,Rice,Grains,Store_1,36.0,26.0,10.0,22.0,Autumn
+2023-10-17 00:00:00,Orange,Fruits,Store_3,32.0,32.0,0.0,24.0,Hot
+2023-07-22 00:00:00, milk ,Dairy,Store_2,26.0,26.0,0.0,15.0,Winter
+2023-04-21 00:00:00,Eggs,Dairy,Store_3,32.0,22.0,10.0,22.0,Autumn
+2023-04-02 00:00:00,Milk,Dairy,Store_1,25.0,22.0,3.0,11.0,Autumn
+2023-06-06 00:00:00,Bread,Bakery,Store_3,37.0,31.0,6.0,20.0,Winter
+2023-05-21 00:00:00,Banana,Fruits,Store_2,31.0,21.0,10.0,21.0,Autumn
+2023-11-24 00:00:00,Shampoo,Personal Care,Store_1,39.0,21.0,18.0,10.0,Rainy
+2023-01-20 00:00:00,Bread,Bakery,Store_2,39.0,27.0,12.0,10.0,Rainy
+2023-03-01 00:00:00,Orange,Fruits,Store_3,31.0,20.0,11.0,11.0,Autumn
+2023-11-05 00:00:00,Shampoo,Personal Care,Store_2,23.0,23.0,0.0,28.0,Rainy
+2023-12-22 00:00:00, rice ,Grains,Store_2,34.0,30.0,4.0,16.0,Rainy
+2023-12-04 00:00:00,Orange,Fruits,Store_2,39.0,29.0,10.0,28.0,Rainy
+2023-10-27 00:00:00,,Grains,Store_1,30.0,23.0,7.0,17.0,Hot
+2023-09-12 00:00:00,Chicken,Meat,Store_2,21.0,21.0,0.0,28.0,Hot
+2023-07-22 00:00:00,Shampoo,Personal Care,Store_1,36.0,27.0,9.0,17.0,Winter
+2023-11-30 00:00:00,Bread,Bakery,Store_1,25.0,25.0,0.0,10.0,Rainy
+2023-11-07 00:00:00,Apple,Fruits,Store_2,22.0,22.0,0.0,21.0,Rainy
+2023-08-04 00:00:00, banana ,Fruits,Store_3,28.0,23.0,5.0,22.0,Winter
+2023-03-24 00:00:00,Shampoo,Personal Care,Store_3,26.0,26.0,0.0,24.0,Autumn
+2023-04-06 00:00:00,Rice,Grains,Store_3,30.0,25.0,5.0,21.0,Autumn
+2023-03-25 00:00:00,Milk,Dairy,Store_3,33.0,26.0,7.0,26.0,Autumn
+2023-01-12 00:00:00,Rice,Grains,Store_1,25.0,25.0,0.0,14.0,Rainy
+2023-07-03 00:00:00,Milk,Dairy,Store_3,36.0,24.0,12.0,20.0,Winter
+2023-07-30 00:00:00,Eggs,Dairy,Store_2,26.0,26.0,0.0,13.0,Winter
+2023-05-11 00:00:00,Soap,Personal Care,Store_3,28.0,21.0,7.0,25.0,Autumn
+2023-04-28 00:00:00,Soap,Personal Care,Store_2,27.0,24.0,3.0,16.0,Autumn
+2023-11-28 00:00:00,Bread,Bakery,Store_3,37.0,24.0,13.0,17.0,Rainy
+2023-04-23 00:00:00,Bread,Bakery,Store_2,26.0,25.0,1.0,17.0,Autumn
+2023-11-30 00:00:00,Bread,Bakery,Store_3,22.0,22.0,0.0,28.0,Rainy
+2023-04-25 00:00:00, rice ,Grains,Store_2,31.0,21.0,10.0,12.0,Autumn
+2023-01-15 00:00:00,Banana,Fruits,Store_1,41.0,32.0,9.0,24.0,Rainy
+2023-10-01 00:00:00,Shampoo,Personal Care,Store_1,22.0,20.0,2.0,10.0,Hot
+2023-02-12 00:00:00,Rice,Grains,Store_2,39.0,22.0,17.0,13.0,Rainy
+2023-02-05 00:00:00,Apple,Fruits,Store_2,23.0,23.0,0.0,12.0,Rainy
+2023-09-28 00:00:00, milk ,Dairy,Store_2,23.0,23.0,0.0,16.0,Hot
+2023-05-20 00:00:00,Shampoo,Personal Care,Store_1,22.0,22.0,0.0,15.0,Autumn
+2023-11-29 00:00:00,Apple,Fruits,Store_1,29.0,29.0,0.0,12.0,Rainy
+2023-01-29 00:00:00,Apple,Fruits,Store_2,24.0,24.0,0.0,24.0,Rainy
+2023-12-11 00:00:00,Soap,Personal Care,Store_3,31.0,31.0,0.0,16.0,Rainy
+2023-06-15 00:00:00,Bread,Bakery,Store_2,35.0,28.0,7.0,22.0,Winter
+2023-12-03 00:00:00,Soap,Personal Care,Store_3,25.0,11.0,14.0,16.0,Rainy
+2023-06-29 00:00:00,Soap,Personal Care,Store_1,30.0,15.0,15.0,23.0,Winter
+2023-08-17 00:00:00,Rice,Grains,Store_1,33.0,33.0,0.0,22.0,Winter
+2023-02-04 00:00:00,Soap,Personal Care,Store_3,21.0,21.0,0.0,16.0,Rainy
+2023-06-24 00:00:00, milk ,Dairy,Store_1,,,,11.0,Winter
+2023-06-01 00:00:00,Milk,Dairy,Store_2,32.0,28.0,4.0,13.0,Winter
+2023-08-22 00:00:00,Banana,Fruits,Store_1,28.0,28.0,0.0,17.0,Winter
+2023-09-19 00:00:00,Apple,Fruits,Store_2,29.0,29.0,0.0,22.0,Hot
+2023-01-12 00:00:00,Banana,Fruits,Store_3,22.0,22.0,0.0,19.0,Rainy
+2023-09-29 00:00:00,Milk,Dairy,Store_1,27.0,27.0,0.0,14.0,Hot
+2023-09-07 00:00:00,Milk,Dairy,Store_3,27.0,23.0,4.0,26.0,Hot
+2023-08-01 00:00:00,Soap,Personal Care,Store_3,22.0,17.0,5.0,18.0,Winter
+2023-01-11 00:00:00,Eggs,Dairy,Store_2,32.0,22.0,10.0,25.0,Rainy
+2023-01-22 00:00:00,Apple,Fruits,Store_3,28.0,28.0,0.0,24.0,Rainy
+2023-08-18 00:00:00,Shampoo,Personal Care,Store_1,32.0,31.0,1.0,16.0,Winter
+2023-03-19 00:00:00,Chicken,Meat,Store_1,37.0,32.0,5.0,28.0,Autumn
+2023-11-19 00:00:00,Banana,Fruits,Store_3,37.0,36.0,1.0,29.0,Rainy
+2023-10-05 00:00:00,Shampoo,Personal Care,Store_3,28.0,26.0,2.0,29.0,Hot
+2023-02-26 00:00:00,Eggs,Dairy,Store_3,29.0,23.0,6.0,26.0,Rainy
+2023-04-23 00:00:00,Milk,Dairy,Store_3,32.0,24.0,8.0,27.0,Autumn
+2023-09-22 00:00:00,Milk,Dairy,Store_2,27.0,26.0,1.0,18.0,Hot
+2023-08-12 00:00:00, bread ,Bakery,Store_2,28.0,28.0,0.0,16.0,Winter
+2023-10-23 00:00:00,Soap,Personal Care,Store_2,36.0,26.0,10.0,13.0,Hot
+2023-07-14 00:00:00,Chicken,Meat,Store_1,,,,17.0,Winter
+2023-05-24 00:00:00,Eggs,Dairy,Store_2,31.0,31.0,0.0,27.0,Autumn
+2023-04-14 00:00:00,Milk,Dairy,Store_1,27.0,25.0,2.0,15.0,Autumn
+2023-03-07 00:00:00,Bread,Bakery,Store_2,33.0,26.0,7.0,12.0,Autumn
+2023-04-15 00:00:00,Eggs,Dairy,Store_2,33.0,33.0,0.0,13.0,Autumn
+2023-08-06 00:00:00, chicken ,Meat,Store_3,28.0,28.0,0.0,22.0,Winter
+2023-05-30 00:00:00,,Meat,Store_3,33.0,23.0,10.0,10.0,Autumn
+2023-12-11 00:00:00,Rice,Grains,Store_1,29.0,29.0,0.0,13.0,Rainy
+2023-05-08 00:00:00,Orange,Fruits,Store_3,22.0,22.0,0.0,14.0,Autumn
+2023-07-28 00:00:00,Milk,Dairy,Store_3,30.0,30.0,0.0,12.0,Winter
+2023-01-06 00:00:00,Eggs,Dairy,Store_1,29.0,19.0,10.0,10.0,Rainy
+2023-09-14 00:00:00,Soap,Personal Care,Store_3,18.0,18.0,0.0,26.0,Hot
+,Soap,Personal Care,Store_3,30.0,16.0,14.0,16.0,
+2023-03-15 00:00:00,Orange,Fruits,Store_3,44.0,28.0,16.0,26.0,Autumn
+2023-01-23 00:00:00,Rice,Grains,Store_3,26.0,20.0,6.0,20.0,Rainy
+2023-07-23 00:00:00,Rice,Grains,Store_3,45.0,27.0,18.0,18.0,Winter
+2023-09-10 00:00:00,Soap,Personal Care,Store_2,42.0,18.0,24.0,12.0,Hot
+2023-06-17 00:00:00,Banana,Fruits,Store_2,30.0,26.0,4.0,24.0,Winter
+2023-10-06 00:00:00,Bread,Bakery,Store_2,38.0,28.0,10.0,13.0,Hot
+2023-12-07 00:00:00,Shampoo,Personal Care,Store_1,23.0,22.0,1.0,22.0,Rainy
+2023-02-06 00:00:00,Rice,Grains,Store_2,20.0,20.0,0.0,14.0,Rainy
+2023-09-18 00:00:00,Orange,Fruits,Store_3,26.0,26.0,0.0,11.0,Hot
+2023-02-23 00:00:00,Orange,Fruits,Store_3,28.0,28.0,0.0,16.0,Rainy
+2023-02-12 00:00:00,Orange,Fruits,Store_2,35.0,33.0,2.0,16.0,Rainy
+2023-02-11 00:00:00,Bread,Bakery,Store_3,30.0,23.0,7.0,17.0,Rainy
+2023-01-18 00:00:00,Apple,Fruits,Store_1,21.0,21.0,0.0,19.0,Rainy
+2023-01-16 00:00:00,Soap,Personal Care,Store_2,25.0,24.0,1.0,11.0,Rainy
+2023-11-04 00:00:00,Milk,Dairy,Store_1,30.0,23.0,7.0,19.0,Rainy
+2023-02-23 00:00:00,Banana,Fruits,Store_1,30.0,30.0,0.0,10.0,Rainy
+2023-11-12 00:00:00, orange ,Fruits,Store_3,32.0,32.0,0.0,14.0,Rainy
+2023-05-21 00:00:00,Rice,Grains,Store_2,22.0,22.0,0.0,22.0,Autumn
+2023-09-21 00:00:00,Eggs,Dairy,Store_1,35.0,27.0,8.0,24.0,Hot
+2023-08-02 00:00:00,Apple,Fruits,Store_1,29.0,29.0,0.0,14.0,Winter
+2023-07-23 00:00:00,Eggs,Dairy,Store_1,36.0,20.0,16.0,23.0,Winter
+2023-10-08 00:00:00,Chicken,Meat,Store_2,29.0,27.0,2.0,16.0,Hot
+2023-07-03 00:00:00, bread ,Bakery,Store_1,23.0,23.0,0.0,13.0,Winter
+2023-03-01 00:00:00,Rice,Grains,Store_2,29.0,29.0,0.0,18.0,Autumn
+2023-01-11 00:00:00,Apple,Fruits,Store_2,25.0,25.0,0.0,29.0,Rainy
+2023-11-11 00:00:00,,Fruits,Store_3,26.0,19.0,7.0,17.0,Rainy
+2023-03-06 00:00:00,Shampoo,Personal Care,Store_1,28.0,28.0,0.0,22.0,Autumn
+2023-07-24 00:00:00,Milk,Dairy,Store_1,32.0,31.0,1.0,28.0,Winter
+2023-09-25 00:00:00,Banana,Fruits,Store_2,32.0,27.0,5.0,10.0,Hot
+2023-10-24 00:00:00,Rice,Grains,Store_2,38.0,27.0,11.0,14.0,Hot
+2023-09-21 00:00:00,Orange,Fruits,Store_2,31.0,31.0,0.0,22.0,Hot
+2023-08-07 00:00:00, shampoo ,Personal Care,Store_3,36.0,26.0,10.0,18.0,Winter
+2023-01-25 00:00:00,Soap,Personal Care,Store_2,32.0,30.0,2.0,11.0,Rainy
+2023-10-08 00:00:00, banana ,Fruits,Store_2,33.0,33.0,0.0,20.0,Hot
+2023-03-15 00:00:00, rice ,Grains,Store_2,31.0,27.0,4.0,25.0,Autumn
+2023-08-23 00:00:00,Banana,Fruits,Store_3,30.0,25.0,5.0,19.0,Winter
+2023-08-20 00:00:00,Apple,Fruits,Store_2,26.0,26.0,0.0,28.0,Winter
+2023-12-31 00:00:00,Eggs,Dairy,Store_3,32.0,32.0,0.0,11.0,Rainy
+2023-09-27 00:00:00,Apple,Fruits,Store_2,26.0,26.0,0.0,24.0,Hot
+2023-10-27 00:00:00, banana ,Fruits,Store_2,28.0,28.0,0.0,10.0,Hot
+2023-03-14 00:00:00,Apple,Fruits,Store_3,31.0,19.0,12.0,14.0,Autumn
+2023-02-22 00:00:00,Soap,Personal Care,Store_3,24.0,24.0,0.0,16.0,Rainy
+2023-03-16 00:00:00,Banana,Fruits,Store_2,39.0,22.0,17.0,17.0,Autumn
+2023-08-28 00:00:00,Soap,Personal Care,Store_3,31.0,16.0,15.0,26.0,Winter
+2023-08-17 00:00:00,Shampoo,Personal Care,Store_1,22.0,22.0,0.0,23.0,Winter
+2023-07-04 00:00:00,Rice,Grains,Store_1,40.0,33.0,7.0,26.0,Winter
+2023-08-24 00:00:00,Shampoo,Personal Care,Store_1,28.0,27.0,1.0,10.0,Winter
+2023-07-31 00:00:00,Milk,Dairy,Store_1,33.0,30.0,3.0,17.0,Winter
+2023-12-06 00:00:00,Shampoo,Personal Care,Store_3,37.0,21.0,16.0,11.0,Rainy
+2023-04-03 00:00:00,Rice,Grains,Store_1,29.0,24.0,5.0,18.0,Autumn
+2023-10-22 00:00:00,Apple,Fruits,Store_1,23.0,20.0,3.0,11.0,Hot
+2023-04-04 00:00:00,Banana,Fruits,Store_3,30.0,19.0,11.0,29.0,Autumn
+2023-09-24 00:00:00,Apple,Fruits,Store_3,31.0,27.0,4.0,12.0,Hot
+2023-02-17 00:00:00,Eggs,Dairy,Store_1,39.0,28.0,11.0,15.0,Rainy
+2023-07-08 00:00:00, banana ,Fruits,Store_3,30.0,23.0,7.0,17.0,Winter
+2023-04-29 00:00:00,Chicken,Meat,Store_1,38.0,18.0,20.0,21.0,Autumn
+2023-03-13 00:00:00,Chicken,Meat,Store_2,32.0,27.0,5.0,26.0,Autumn
+2023-07-16 00:00:00,Milk,Dairy,Store_2,23.0,18.0,5.0,22.0,Winter
+2023-03-01 00:00:00,Apple,Fruits,Store_2,36.0,31.0,5.0,21.0,Autumn
+2023-03-31 00:00:00,Rice,Grains,Store_3,29.0,15.0,14.0,14.0,Autumn
+2023-05-09 00:00:00, orange ,Fruits,Store_3,43.0,25.0,18.0,25.0,Autumn
+2023-02-06 00:00:00,Eggs,Dairy,Store_1,33.0,19.0,14.0,10.0,Rainy
+2023-01-21 00:00:00,Rice,Grains,Store_1,35.0,14.0,21.0,16.0,Rainy
+2023-12-12 00:00:00,Shampoo,Personal Care,Store_1,32.0,32.0,0.0,15.0,Rainy
+2023-08-21 00:00:00,Rice,Grains,Store_3,34.0,20.0,14.0,17.0,Winter
+2023-11-14 00:00:00,Apple,Fruits,Store_2,37.0,33.0,4.0,10.0,Rainy
+2023-08-20 00:00:00,Apple,Fruits,Store_1,26.0,24.0,2.0,16.0,Winter
+2023-08-02 00:00:00,Orange,Fruits,Store_1,28.0,27.0,1.0,16.0,Winter
+2023-10-27 00:00:00,Apple,Fruits,Store_3,30.0,28.0,2.0,23.0,Hot
+2023-12-12 00:00:00,Orange,Fruits,Store_3,30.0,30.0,0.0,18.0,Rainy
+2023-09-08 00:00:00,Bread,Bakery,Store_2,28.0,28.0,0.0,27.0,Hot
+2023-12-19 00:00:00,Apple,Fruits,Store_2,26.0,26.0,0.0,26.0,Rainy
+2023-06-18 00:00:00, bread ,Bakery,Store_2,28.0,28.0,0.0,27.0,Winter
+2023-07-06 00:00:00,Bread,Bakery,Store_2,30.0,28.0,2.0,12.0,Winter
+2023-11-12 00:00:00,Soap,Personal Care,Store_1,20.0,20.0,0.0,26.0,Rainy
+2023-11-28 00:00:00,Orange,Fruits,Store_1,29.0,26.0,3.0,19.0,Rainy
+invalid_date,,Unknown,Store_1,,,,-10.0,N/A
+2023-10-18 00:00:00,Shampoo,Personal Care,Store_3,30.0,24.0,6.0,13.0,Hot
+2023-03-30 00:00:00, milk ,Dairy,Store_2,27.0,21.0,6.0,25.0,Autumn
+2023-06-30 00:00:00,Eggs,Dairy,Store_2,36.0,31.0,5.0,16.0,Winter
+2023-01-29 00:00:00,Rice,Grains,Store_2,32.0,29.0,3.0,21.0,Rainy
+2023-05-19 00:00:00,Milk,Dairy,Store_2,40.0,28.0,12.0,16.0,Autumn
+2023-09-17 00:00:00, eggs ,Dairy,Store_1,27.0,27.0,0.0,13.0,Hot
+2023-10-08 00:00:00,Eggs,Dairy,Store_3,28.0,28.0,0.0,10.0,Hot
+2023-06-25 00:00:00,Eggs,Dairy,Store_1,28.0,28.0,0.0,28.0,Winter
+2023-12-24 00:00:00,Eggs,Dairy,Store_1,26.0,25.0,1.0,19.0,Rainy
+2023-12-12 00:00:00,Eggs,Dairy,Store_3,31.0,23.0,8.0,20.0,Rainy
+2023-09-08 00:00:00,Orange,Fruits,Store_3,31.0,31.0,0.0,21.0,Hot
+2023-03-04 00:00:00,Milk,Dairy,Store_1,31.0,24.0,7.0,24.0,Autumn
+2023-10-27 00:00:00,Milk,Dairy,Store_1,26.0,19.0,7.0,22.0,Hot
+2023-11-14 00:00:00,Soap,Personal Care,Store_1,24.0,20.0,4.0,11.0,Rainy
+2023-08-16 00:00:00,Apple,Fruits,Store_1,28.0,28.0,0.0,13.0,Winter
+2023-07-14 00:00:00,Banana,Fruits,Store_3,38.0,20.0,18.0,29.0,Winter
+2023-02-20 00:00:00,Apple,Fruits,Store_2,40.0,38.0,2.0,16.0,Rainy
+2023-03-20 00:00:00,Milk,Dairy,Store_3,32.0,19.0,13.0,12.0,Autumn
+invalid_date,,Unknown,Store_1,9999.0,,7777.0,,N/A
+2023-07-09 00:00:00,Eggs,Dairy,Store_3,35.0,24.0,11.0,11.0,Winter
+2023-06-03 00:00:00,Rice,Grains,Store_1,36.0,30.0,6.0,17.0,Winter
+2023-11-14 00:00:00, apple ,Fruits,Store_1,35.0,27.0,8.0,11.0,Rainy
+2023-12-25 00:00:00,Chicken,Meat,Store_1,35.0,26.0,9.0,13.0,Rainy
+2023-10-27 00:00:00,Rice,Grains,Store_1,40.0,31.0,9.0,25.0,Hot
+2023-08-06 00:00:00,Shampoo,Personal Care,Store_2,17.0,17.0,0.0,17.0,Winter
+2023-06-12 00:00:00,Chicken,Meat,Store_1,24.0,24.0,0.0,10.0,Winter
+2023-07-09 00:00:00,Orange,Fruits,Store_3,25.0,25.0,0.0,17.0,Winter
+2023-11-03 00:00:00,Soap,Personal Care,Store_3,31.0,19.0,12.0,17.0,Rainy
+2023-01-21 00:00:00,Orange,Fruits,Store_1,32.0,32.0,0.0,18.0,Rainy
+2023-01-29 00:00:00,Apple,Fruits,Store_2,29.0,29.0,0.0,19.0,Rainy
+2023-03-26 00:00:00,Shampoo,Personal Care,Store_2,28.0,25.0,3.0,15.0,Autumn
+2023-08-10 00:00:00,Eggs,Dairy,Store_2,30.0,20.0,10.0,16.0,Winter
+2023-09-27 00:00:00,Rice,Grains,Store_1,24.0,19.0,5.0,19.0,Hot
+2023-11-25 00:00:00,Orange,Fruits,Store_3,31.0,31.0,0.0,14.0,Rainy
+2023-07-30 00:00:00,Shampoo,Personal Care,Store_2,23.0,23.0,0.0,23.0,Winter
+2023-03-08 00:00:00,Chicken,Meat,Store_2,27.0,27.0,0.0,20.0,Autumn
+2023-03-13 00:00:00,Soap,Personal Care,Store_1,36.0,24.0,12.0,15.0,Autumn
+2023-02-18 00:00:00,Apple,Fruits,Store_2,29.0,24.0,5.0,16.0,Rainy
+2023-12-29 00:00:00,Orange,Fruits,Store_3,35.0,30.0,5.0,29.0,Rainy
+2023-03-04 00:00:00, shampoo ,Personal Care,Store_3,29.0,19.0,10.0,28.0,Autumn
+2023-03-03 00:00:00,Soap,Personal Care,Store_2,36.0,32.0,4.0,18.0,Autumn
+2023-11-01 00:00:00,Bread,Bakery,Store_3,25.0,25.0,0.0,17.0,Rainy
+2023-08-03 00:00:00,Chicken,Meat,Store_2,45.0,30.0,15.0,25.0,Winter
+2023-02-18 00:00:00,Shampoo,Personal Care,Store_3,27.0,19.0,8.0,26.0,Rainy
+2023-03-27 00:00:00,Chicken,Meat,Store_2,33.0,24.0,9.0,29.0,Autumn
+2023-10-08 00:00:00,Banana,Fruits,Store_3,35.0,35.0,0.0,10.0,Hot
+2023-11-06 00:00:00,Chicken,Meat,Store_1,24.0,24.0,0.0,24.0,Rainy
+2023-06-03 00:00:00,Milk,Dairy,Store_2,36.0,30.0,6.0,17.0,Winter
+2023-08-03 00:00:00, banana ,Fruits,Store_2,30.0,27.0,3.0,20.0,Winter
+2023-10-08 00:00:00, rice ,Grains,Store_1,37.0,30.0,7.0,13.0,Hot
+2023-07-02 00:00:00,Milk,Dairy,Store_2,21.0,21.0,0.0,22.0,Winter
+2023-10-14 00:00:00,Eggs,Dairy,Store_1,35.0,18.0,17.0,22.0,Hot
+2023-05-09 00:00:00,Shampoo,Personal Care,Store_1,30.0,21.0,9.0,16.0,Autumn
+2023-02-12 00:00:00,Shampoo,Personal Care,Store_2,28.0,26.0,2.0,28.0,Rainy
+2023-04-11 00:00:00,Bread,Bakery,Store_3,30.0,20.0,10.0,20.0,Autumn
+2023-05-29 00:00:00,Orange,Fruits,Store_2,33.0,25.0,8.0,27.0,Autumn
+2023-04-24 00:00:00,Banana,Fruits,Store_1,26.0,26.0,0.0,20.0,Autumn
+2023-04-30 00:00:00,Chicken,Meat,Store_1,28.0,18.0,10.0,18.0,Autumn
+2023-05-09 00:00:00,Rice,Grains,Store_3,22.0,22.0,0.0,26.0,Autumn
+2023-10-20 00:00:00,Orange,Fruits,Store_1,29.0,29.0,0.0,29.0,Hot
+2023-10-05 00:00:00,Apple,Fruits,Store_1,29.0,28.0,1.0,14.0,Hot
+2023-06-25 00:00:00,Shampoo,Personal Care,Store_3,28.0,28.0,0.0,13.0,Winter
+2023-11-23 00:00:00,Bread,Bakery,Store_3,27.0,19.0,8.0,29.0,Rainy
+2023-05-03 00:00:00,Shampoo,Personal Care,Store_2,,,,23.0,Autumn
+2023-03-12 00:00:00,Apple,Fruits,Store_1,24.0,16.0,8.0,12.0,Autumn
+2023-03-16 00:00:00,Shampoo,Personal Care,Store_3,36.0,26.0,10.0,15.0,Autumn
+2023-05-08 00:00:00, orange ,Fruits,Store_3,28.0,17.0,11.0,24.0,Autumn
+2023-04-19 00:00:00,Bread,Bakery,Store_3,34.0,25.0,9.0,21.0,Autumn
+2023-06-26 00:00:00,Orange,Fruits,Store_2,31.0,27.0,4.0,18.0,Winter
+2023-03-19 00:00:00,Rice,Grains,Store_1,28.0,23.0,5.0,14.0,Autumn
+2023-02-25 00:00:00, orange ,Fruits,Store_1,35.0,31.0,4.0,13.0,Rainy
+2023-03-27 00:00:00,Milk,Dairy,Store_3,31.0,27.0,4.0,10.0,Autumn
+2023-05-07 00:00:00,Eggs,Dairy,Store_2,35.0,29.0,6.0,10.0,Autumn
+2023-10-30 00:00:00,Rice,Grains,Store_3,21.0,21.0,0.0,21.0,Hot
+2023-06-26 00:00:00,Bread,Bakery,Store_1,28.0,17.0,11.0,26.0,Winter
+2023-08-29 00:00:00,Shampoo,Personal Care,Store_3,29.0,29.0,0.0,14.0,Winter
+2023-09-15 00:00:00,Apple,Fruits,Store_2,43.0,27.0,16.0,15.0,Hot
+2023-06-16 00:00:00,Shampoo,Personal Care,Store_1,37.0,30.0,7.0,15.0,Winter
+2023-09-04 00:00:00,Orange,Fruits,Store_3,34.0,33.0,1.0,26.0,Hot
+2023-09-04 00:00:00,Soap,Personal Care,Store_1,30.0,30.0,0.0,,Hot
+2023-10-12 00:00:00,Banana,Fruits,Store_3,30.0,30.0,0.0,14.0,Hot
+2023-01-03 00:00:00,Chicken,Meat,Store_3,19.0,19.0,0.0,29.0,Rainy
+2023-11-04 00:00:00,Chicken,Meat,Store_3,37.0,24.0,13.0,17.0,Rainy
+2023-10-03 00:00:00,Chicken,Meat,Store_1,38.0,20.0,18.0,26.0,Hot
+2023-10-21 00:00:00,Rice,Grains,Store_1,30.0,25.0,5.0,12.0,Hot
+2023-03-17 00:00:00,Soap,Personal Care,Store_1,30.0,29.0,1.0,19.0,Autumn
+2023-01-14 00:00:00,Orange,Fruits,Store_3,26.0,26.0,0.0,28.0,Rainy
+2023-04-15 00:00:00,Shampoo,Personal Care,Store_1,29.0,28.0,1.0,16.0,Autumn
+2023-10-12 00:00:00,Orange,Fruits,Store_3,30.0,29.0,1.0,23.0,Hot
+2023-06-29 00:00:00,Soap,Personal Care,Store_3,27.0,27.0,0.0,26.0,Winter
+2023-12-22 00:00:00,Shampoo,Personal Care,Store_2,24.0,23.0,1.0,11.0,Rainy
+2023-01-10 00:00:00,Orange,Fruits,Store_3,33.0,33.0,0.0,18.0,Rainy
+2023-12-19 00:00:00, apple ,Fruits,Store_3,28.0,28.0,0.0,24.0,Rainy
+2023-10-21 00:00:00,Shampoo,Personal Care,Store_2,33.0,33.0,0.0,15.0,Hot
+2023-07-05 00:00:00,Chicken,Meat,Store_2,31.0,24.0,7.0,19.0,Winter
+2023-01-31 00:00:00,Milk,Dairy,Store_3,31.0,28.0,3.0,27.0,Rainy
+2023-02-04 00:00:00,Rice,Grains,Store_3,29.0,22.0,7.0,18.0,Rainy
+2023-09-07 00:00:00, eggs ,Dairy,Store_3,26.0,15.0,11.0,19.0,Hot
+2023-04-28 00:00:00,Apple,Fruits,Store_1,26.0,26.0,0.0,26.0,Autumn
+2023-09-27 00:00:00,Soap,Personal Care,Store_3,23.0,23.0,0.0,19.0,Hot
+2023-12-02 00:00:00, banana ,Fruits,Store_1,25.0,25.0,0.0,21.0,Rainy
+2023-11-28 00:00:00,Eggs,Dairy,Store_1,45.0,19.0,26.0,14.0,Rainy
+2023-04-22 00:00:00,Chicken,Meat,Store_2,31.0,23.0,8.0,10.0,Autumn
+2023-10-29 00:00:00,Soap,Personal Care,Store_3,34.0,31.0,3.0,25.0,Hot
+2023-01-18 00:00:00,Chicken,Meat,Store_1,33.0,28.0,5.0,13.0,Rainy
+2023-06-07 00:00:00,Bread,Bakery,Store_2,31.0,31.0,0.0,14.0,Winter
+2023-10-25 00:00:00,Bread,Bakery,Store_1,29.0,27.0,2.0,14.0,Hot
+2023-12-09 00:00:00,Banana,Fruits,Store_3,28.0,28.0,0.0,18.0,Rainy
+2023-10-27 00:00:00,Apple,Fruits,Store_1,28.0,19.0,9.0,13.0,Hot
+2023-07-22 00:00:00,Bread,Bakery,Store_2,24.0,24.0,0.0,14.0,Winter
+2023-05-15 00:00:00,Shampoo,Personal Care,Store_1,35.0,23.0,12.0,27.0,Autumn
+2023-07-01 00:00:00,Milk,Dairy,Store_1,24.0,24.0,0.0,17.0,Winter
+2023-10-21 00:00:00,Orange,Fruits,Store_3,30.0,29.0,1.0,17.0,Hot
+2023-08-11 00:00:00,Apple,Fruits,Store_1,20.0,20.0,0.0,10.0,Winter
+2023-07-26 00:00:00, banana ,Fruits,Store_3,23.0,15.0,8.0,24.0,Winter
+2023-07-08 00:00:00,Shampoo,Personal Care,Store_1,30.0,25.0,5.0,18.0,Winter
+2023-07-03 00:00:00,Orange,Fruits,Store_2,26.0,24.0,2.0,19.0,Winter
+2023-06-13 00:00:00, shampoo ,Personal Care,Store_3,20.0,20.0,0.0,26.0,Winter
+2023-08-29 00:00:00,Eggs,Dairy,Store_1,32.0,31.0,1.0,21.0,Winter
+2023-12-29 00:00:00, milk ,Dairy,Store_2,26.0,19.0,7.0,16.0,Rainy
+2023-10-08 00:00:00,Chicken,Meat,Store_1,38.0,22.0,16.0,29.0,Hot
+2023-11-11 00:00:00,Apple,Fruits,Store_3,32.0,32.0,0.0,27.0,Rainy
+2023-04-02 00:00:00,Shampoo,Personal Care,Store_2,33.0,30.0,3.0,16.0,Autumn
+2023-10-23 00:00:00,Apple,Fruits,Store_3,29.0,28.0,1.0,15.0,Hot
+2023-03-11 00:00:00,Bread,Bakery,Store_3,17.0,17.0,0.0,12.0,Autumn
+2023-11-10 00:00:00,Soap,Personal Care,Store_2,35.0,26.0,9.0,25.0,Rainy
+2023-11-29 00:00:00,Soap,Personal Care,Store_2,23.0,23.0,0.0,23.0,Rainy
+2023-06-06 00:00:00,Orange,Fruits,Store_1,33.0,22.0,11.0,25.0,Winter
+2023-06-13 00:00:00,Chicken,Meat,Store_1,28.0,25.0,3.0,23.0,Winter
+2023-09-05 00:00:00,Soap,Personal Care,Store_1,36.0,26.0,10.0,20.0,Hot
+2023-10-05 00:00:00,Rice,Grains,Store_2,30.0,24.0,6.0,11.0,Hot
+2023-05-18 00:00:00,Eggs,Dairy,Store_2,17.0,17.0,0.0,18.0,Autumn
+2023-12-03 00:00:00,Banana,Fruits,Store_2,32.0,32.0,0.0,27.0,Rainy
+2023-01-13 00:00:00,Milk,Dairy,Store_2,24.0,24.0,0.0,26.0,Rainy
+2023-09-28 00:00:00,Shampoo,Personal Care,Store_1,32.0,21.0,11.0,10.0,Hot
+2023-06-09 00:00:00, apple ,Fruits,Store_1,25.0,19.0,6.0,24.0,Winter
+2023-09-24 00:00:00,Apple,Fruits,Store_3,39.0,38.0,1.0,16.0,Hot
+2023-02-03 00:00:00,Banana,Fruits,Store_2,30.0,24.0,6.0,11.0,Rainy
+2023-11-30 00:00:00,Eggs,Dairy,Store_1,30.0,26.0,4.0,16.0,Rainy
+2023-12-21 00:00:00, apple ,Fruits,Store_3,35.0,29.0,6.0,14.0,Rainy
+2023-03-21 00:00:00,Eggs,Dairy,Store_2,24.0,22.0,2.0,12.0,Autumn
+2023-07-16 00:00:00,Eggs,Dairy,Store_1,33.0,33.0,0.0,28.0,Winter
+2023-02-23 00:00:00,Milk,Dairy,Store_1,24.0,24.0,0.0,16.0,Rainy
+2023-10-29 00:00:00,Bread,Bakery,Store_2,28.0,19.0,9.0,13.0,Hot
+2023-10-02 00:00:00,Bread,Bakery,Store_1,38.0,29.0,9.0,18.0,Hot
+2023-12-13 00:00:00,Banana,Fruits,Store_3,35.0,29.0,6.0,16.0,Rainy
+,Eggs,Dairy,Store_2,28.0,28.0,0.0,16.0,
+2023-04-23 00:00:00,Banana,Fruits,Store_1,26.0,26.0,0.0,13.0,Autumn
+2023-04-05 00:00:00,Milk,Dairy,Store_1,34.0,29.0,5.0,23.0,Autumn
+2023-04-21 00:00:00,Apple,Fruits,Store_1,29.0,29.0,0.0,25.0,Autumn
+2023-08-10 00:00:00,Apple,Fruits,Store_2,26.0,23.0,3.0,19.0,Winter
+2023-07-18 00:00:00,Apple,Fruits,Store_2,29.0,22.0,7.0,11.0,Winter
+2023-01-13 00:00:00, milk ,Dairy,Store_1,21.0,21.0,0.0,17.0,Rainy
+2023-11-13 00:00:00,Bread,Bakery,Store_2,31.0,27.0,4.0,15.0,Rainy
+2023-03-08 00:00:00,Bread,Bakery,Store_2,26.0,26.0,0.0,28.0,Autumn
+2023-07-05 00:00:00,Chicken,Meat,Store_1,31.0,25.0,6.0,15.0,Winter
+2023-07-06 00:00:00,Soap,Personal Care,Store_1,21.0,21.0,0.0,21.0,Winter
+2023-09-16 00:00:00,Chicken,Meat,Store_2,20.0,20.0,0.0,15.0,Hot
+2023-07-11 00:00:00,Soap,Personal Care,Store_2,25.0,18.0,7.0,29.0,Winter
+2023-03-14 00:00:00,Eggs,Dairy,Store_1,29.0,15.0,14.0,26.0,Autumn
+2023-11-14 00:00:00,Apple,Fruits,Store_1,27.0,27.0,0.0,14.0,Rainy
+2023-08-25 00:00:00, milk ,Dairy,Store_2,33.0,29.0,4.0,28.0,Winter
+2023-04-14 00:00:00,Banana,Fruits,Store_3,44.0,17.0,27.0,19.0,Autumn
+2023-08-21 00:00:00,Rice,Grains,Store_1,28.0,28.0,0.0,29.0,Winter
+2023-10-04 00:00:00,Milk,Dairy,Store_1,30.0,28.0,2.0,28.0,Hot
