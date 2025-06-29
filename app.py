@@ -12,7 +12,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error
 
 # Load Data
+
 df = pd.read_csv("data/inventory.csv", parse_dates=['Date'])
+df['Inventory'] = df['Stock_Received'] + df['Stock_on_Hand']
 # Data Preprocessing
 df['Product']=df['Product'].str.strip().str.lower()
 df['Product']=df['Product'].replace({
@@ -57,18 +59,50 @@ with col3:
     st.metric("📍 Active Products", df['Product'].nunique())
 
 
-# Placeholder for next sections
-st.subheader("📈 Inventory Trends Over Time")
-df['inventory']=df['Stock_Received'] + df['Stock_on_Hand'] 
-fig = px.line(df, x='Date', y=['inventory', 'Stock_Sold'],
-              title="Stock Movement Over Time",
-              markers=True, color_discrete_sequence=px.colors.qualitative.Bold)
-st.plotly_chart(fig, use_container_width=True)
+# 📆 Prepare daily data
+daily_df = df.groupby('Date').agg({
+    'Inventory': 'sum',
+    'Stock_Sold': 'sum'
+}).reset_index()
+
+# 🔄 Melt for dual-line Plot
+melted_df = daily_df.melt(id_vars='Date',
+                          value_vars=['Inventory', 'Stock_Sold'],
+                          var_name='Metric',
+                          value_name='Units')
+
+# 📈 Static Line Chart (No Animation)
+fig_static = px.line(
+    melted_df,
+    x="Date",
+    y="Units",
+    color="Metric",
+    title="📊 Daily Inventory Level vs Sales Over Time",
+    markers=True,
+    template="plotly_dark",
+    line_shape="spline",
+    color_discrete_map={
+        "Inventory": "#00CC96",     # Teal
+        "Stock_Sold": "#EF553B"     # Red-orange
+    }
+)
+
+fig_static.update_layout(
+    xaxis_title="Date",
+    yaxis_title="Units",
+    hovermode="x unified",
+    legend=dict(orientation="h", x=0.5, xanchor="center"),
+    margin=dict(t=50, b=40, l=10, r=10)
+)
+
+st.plotly_chart(fig_static, use_container_width=True)
+
+
 
 # 📆 Create Month column and group by
 df['Month'] = df['Date'].dt.to_period('M')
 monthly_df = df.groupby('Month').agg({
-    'inventory': 'sum',      # Assuming this is inventory level
+    'Inventory': 'sum',      # Assuming this is Inventory level
     'Stock_Sold': 'sum'
 }).reset_index()
 
@@ -116,20 +150,20 @@ else:
 
 # 📊 Group by Season with both Inventory and Sales
 seasonal_df = filtered_df.groupby("Season").agg({
-    'inventory': 'sum',  # Assuming 'inventory' = Inventory
+    'Inventory': 'sum',  # Assuming 'Inventory' = Inventory
     'Stock_Sold': 'sum'
 }).reset_index()
 
 # 🧹 Melt for grouped bar chart
 seasonal_melted = seasonal_df.melt(id_vars="Season",
-                                   value_vars=["inventory", "Stock_Sold"],
+                                   value_vars=["Inventory", "Stock_Sold"],
                                    var_name="Metric", value_name="Units")
 
 # 📈 Plotly grouped bar chart
 fig4 = px.bar(seasonal_melted, x="Season", y="Units", color="Metric", barmode="group",
               title=f"📊 Inventory vs Sales by Season for {'All Products' if selected_product == 'All Products' else selected_product}",
               color_discrete_map={
-                  'inventory': '#00BFFF',  # Light blue
+                  'Inventory': '#00BFFF',  # Light blue
                   'Stock_Sold': '#FF6347'      # Tomato red
               },
               text_auto=True)
